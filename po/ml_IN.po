@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-12 04:47+0000\n"
-"PO-Revision-Date: 2024-02-12 04:49\n"
+"POT-Creation-Date: 2024-02-17 21:38+0000\n"
+"PO-Revision-Date: 2024-02-17 21:51\n"
 "Last-Translator: \n"
 "Language-Team: Malayalam\n"
 "Language: ml_IN\n"
@@ -22,98 +22,102 @@ msgid "Audio folder not set or invalid! Recording won't work!\n"
 "Please set the recording folder under \"Preferences > Audio recording\""
 msgstr "ഓഡിയോ ഫോൾഡർ സജ്ജമാക്കിയില്ല/അസാധുവാണ്! ആയതിനാൽ റെക്കോർഡിംഗ് പ്രവർത്തനയോഗ്യമല്ല! ദയവായി ശരിയായ റെക്കോർഡിങ് ഫോൾഡർ \"മുൻഗണനകൾ (Preferences) > ഓഡിയോ റെക്കോർഡിങ് (Audio recording)\" വഴി സജ്ജമാക്കുക"
 
-#: ../src/core/control/Control.cpp:218
+#: ../src/core/control/Control.cpp:219
 msgid "Filesystem error: {1}"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:230
+#: ../src/core/control/Control.cpp:231
 msgid "Could not remove old autosave file \"{1}\": {2}"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:547
+#: ../src/core/control/Control.cpp:548
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
 msgstr "\"{1}\" എന്ന ടൂൾബാർ ക്രമീകരണം മുൻപേ തിട്ടപ്പെടുത്തിയതാണ്, അത് പുനർക്രമീകരിക്കാൻ താങ്കൾ പുതിയൊരു പകർപ്പ് നിർമിക്കുമോ?"
 
-#: ../src/core/control/Control.cpp:550
+#: ../src/core/control/Control.cpp:551
 msgid "Yes"
 msgstr "അതെ"
 
-#: ../src/core/control/Control.cpp:550
+#: ../src/core/control/Control.cpp:551
 msgid "No"
 msgstr "ഇല്ല"
 
-#: ../src/core/control/Control.cpp:729
+#: ../src/core/control/Control.cpp:730
 msgid "No pdf pages available to append. You may need to reopen the document first."
 msgstr "കൂട്ടിച്ചേർക്കാനായി പിഡിഎഫ് താളുകൾ ലഭ്യമല്ല. നിങ്ങൾ ഒരിക്കൽ കൂടി ഡോക്യുമെന്റ് തുറക്കേണ്ടതായി വരും."
 
-#: ../src/core/control/Control.cpp:743
+#: ../src/core/control/Control.cpp:744
 msgid "Unable to retrieve pdf page."
 msgstr "പിഡിഎഫ് താൾ ലഭ്യമാക്കാൻ സാധിക്കുന്നില്ല."
 
-#: ../src/core/control/Control.cpp:1310
+#: ../src/core/control/Control.cpp:1311
 msgid "Do not open Autosave files. They may will be overwritten!\n"
 "Copy the files to another folder.\n"
 "Files from Folder {1} cannot be opened."
 msgstr "ഓട്ടോസേവ് ചെയ്ത ഫയലുകൾ തുറക്കരുത്. അവ വീണ്ടും മാറ്റി നിര്മിക്കപ്പെട്ടേക്കും. അവ മറ്റൊരു ഫോൾഡറിലേക്ക് പകർത്തുക. ഫോൾഡർ {1}-ലുള്ള ഫയലുകൾ തുറക്കാൻ സാധിക്കുന്നില്ല."
 
-#: ../src/core/control/Control.cpp:1324
+#: ../src/core/control/Control.cpp:1325
 msgid "file: {1}"
 msgstr "ഫയൽ: {1}"
 
-#: ../src/core/control/Control.cpp:1348
+#: ../src/core/control/Control.cpp:1349
 msgid "Error opening file \"{1}\""
 msgstr "ഫയൽ തുറക്കാൻ പരാജയപ്പെട്ടു: {1}"
 
-#: ../src/core/control/Control.cpp:1356
+#: ../src/core/control/Control.cpp:1357
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
 msgstr "ഇപ്പോൾ തുറക്കാൻ ശ്രമിക്കുന്ന ഫയലിന്റെ പതിപ്പ് Xournal++ പിന്തുണയ്ക്കുന്ന പതിപ്പിനേക്കാൾ പുതുതാണ്. ആയതിനാൽ ശരിയായ വിധം ഫയൽ പ്രവർത്തിച്ചേക്കണമെന്നില്ല. എന്തുതന്നെയായാലും ഫയൽ തുറക്കണോ?"
 
-#: ../src/core/control/Control.cpp:1483
+#: ../src/core/control/Control.cpp:1486
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
 msgstr "അറ്റാച്ച് ചെയ്ത പശ്ചാത്തല ഫയൽ കണ്ടെത്താൻ സാധിച്ചില്ല. അത് മറ്റൊരിടത്തേക്ക് മാറ്റിയതോ, പുനർനാമകരണം ചെയ്തതോ, അല്ലെങ്കിൽ നീക്കം ചെയ്തതോ ആയിരിക്കാം."
 
-#: ../src/core/control/Control.cpp:1486
+#: ../src/core/control/Control.cpp:1489
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
 "It was last seen at: \"{2}\""
 msgstr "പശ്ചാത്തല ഫയൽ \"{1}\" കണ്ടെത്താൻ സാധിച്ചില്ല. അത് മറ്റൊരിടത്തേക്ക് മാറ്റിയതോ, പുനർനാമകരണം ചെയ്തതോ, അല്ലെങ്കിൽ നീക്കം ചെയ്തതോ ആയിരിക്കാം.\n"
 "അത് അവസാനം കണ്ട പാത: \"{2}\""
 
-#: ../src/core/control/Control.cpp:1496
+#: ../src/core/control/Control.cpp:1499
 msgid "\n"
 "Proposed replacement file: \"{1}\""
 msgstr "\n"
 "പകരം ഉപയോഗിക്കേണ്ട നിർദ്ദിഷ്ട ഫൈൽ: \"{1}\""
 
-#: ../src/core/control/Control.cpp:1506
-msgid "Use proposed PDF"
-msgstr "മുന്നോട്ട് വച്ച പിഡിഎഫ് ഉപയോഗിക്കുക"
-
-#: ../src/core/control/Control.cpp:1508
+#: ../src/core/control/Control.cpp:1504
 msgid "Select another PDF"
 msgstr "മറ്റൊരു പിഡിഎഫ് തിരഞ്ഞെടുക്കുക"
 
-#: ../src/core/control/Control.cpp:1509
+#: ../src/core/control/Control.cpp:1505
 msgid "Remove PDF Background"
 msgstr "പിഡിഎഫ് പശ്ചാത്തലം നീക്കം ചെയ്യുക"
 
-#: ../src/core/control/Control.cpp:1510 ../src/core/control/Control.cpp:1925
+#: ../src/core/control/Control.cpp:1506 ../src/core/control/Control.cpp:1927
 #: ../src/core/control/XournalMain.cpp:200
 #: ../src/core/gui/sidebar/Sidebar.cpp:87
 msgid "Cancel"
 msgstr "റദ്ദാക്കുക"
 
-#: ../src/core/control/Control.cpp:1603
+#: ../src/core/control/Control.cpp:1509
+msgid "Use proposed PDF"
+msgstr "മുന്നോട്ട് വച്ച പിഡിഎഫ് ഉപയോഗിക്കുക"
+
+#: ../src/core/control/Control.cpp:1512
+msgid "Missing PDF background file"
+msgstr ""
+
+#: ../src/core/control/Control.cpp:1605
 msgid "Error annotate PDF file \"{1}\"\n"
 "{2}"
 msgstr "പിഡിഎഫ് വ്യാഖ്യാനിക്കുന്നതിൽ പിശക് \"{1}\"\n"
 "{2}"
 
-#: ../src/core/control/Control.cpp:1707
+#: ../src/core/control/Control.cpp:1709
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
 msgid "Save File"
 msgstr "ഫയൽ സേവ്"
 
-#: ../src/core/control/Control.cpp:1707
+#: ../src/core/control/Control.cpp:1709
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:16
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:17
@@ -121,47 +125,47 @@ msgstr "ഫയൽ സേവ്"
 msgid "_Cancel"
 msgstr "_ഉപേക്ഷിക്കുക"
 
-#: ../src/core/control/Control.cpp:1708
+#: ../src/core/control/Control.cpp:1710
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:112
 msgid "_Save"
 msgstr "_സേവ്"
 
-#: ../src/core/control/Control.cpp:1713
+#: ../src/core/control/Control.cpp:1715
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:63
 msgid "Xournal++ files"
 msgstr "Xournal++ ഫയലുകൾ"
 
-#: ../src/core/control/Control.cpp:1760
+#: ../src/core/control/Control.cpp:1762
 msgid "Select font"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1775
+#: ../src/core/control/Control.cpp:1777
 #: ../src/core/gui/toolbarMenubar/ColorSelectorToolItem.cpp:59
 msgid "Select color"
 msgstr "നിറം തിരഞ്ഞെടുക്കുക"
 
-#: ../src/core/control/Control.cpp:1797
+#: ../src/core/control/Control.cpp:1799
 msgid "Unsaved Document"
 msgstr "സേവ് ചെയ്യാത്ത ഡോക്യുമെന്റ്"
 
-#: ../src/core/control/Control.cpp:1916
+#: ../src/core/control/Control.cpp:1918
 msgid "Document file was removed."
 msgstr "ഡോക്യുമെന്റ് ഫയൽ നീക്കം ചെയ്യപ്പെട്ടു."
 
-#: ../src/core/control/Control.cpp:1916
+#: ../src/core/control/Control.cpp:1918
 msgid "This document is not saved yet."
 msgstr "ഈ ഡോക്യുമെന്റ് ഇത് വരെ സേവ് ചെയ്യപ്പെട്ടിട്ടില്ല."
 
-#: ../src/core/control/Control.cpp:1917
+#: ../src/core/control/Control.cpp:1919
 msgid "Save As..."
 msgstr "സേവ് തരം..."
 
-#: ../src/core/control/Control.cpp:1917 ../src/core/control/jobs/SaveJob.cpp:24
+#: ../src/core/control/Control.cpp:1919 ../src/core/control/jobs/SaveJob.cpp:24
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:337
 msgid "Save"
 msgstr "സേവ്"
 
-#: ../src/core/control/Control.cpp:1922
+#: ../src/core/control/Control.cpp:1924
 msgid "Discard"
 msgstr "ഒഴിവാക്കുക"
 
@@ -750,15 +754,15 @@ msgid "Unexpected tag in document: \"{1}\""
 msgstr "ഡോക്യൂമെന്റിൽ അപ്രതീക്ഷിതമായ ടാഗ്: \"{1}\""
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:379
-#: ../src/core/control/xojfile/LoadHandler.cpp:407
+#: ../src/core/control/xojfile/LoadHandler.cpp:408
 msgid "Could not read image: {1}. Error message: {2}"
 msgstr "ചിത്രം വായിക്കാൻ സാധിച്ചില്ല: {1}. പിശകിനെ സംബന്ധിച്ച സന്ദേശം: {2}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:417
+#: ../src/core/control/xojfile/LoadHandler.cpp:418
 msgid "Could not read page number for cloned background image: {1}."
 msgstr "ക്ലോൺ ചെയ്ത പശ്ചാത്തല ചിത്രത്തെ സംബന്ധിച്ച താളിന്റെ സംഖ്യ വായിച്ചെടുക്കാൻ സാധിച്ചില്ല: {1}."
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:425
+#: ../src/core/control/xojfile/LoadHandler.cpp:426
 msgid "Unknown pixmap::domain type: {1}"
 msgstr "അറിവില്ലാത്ത പിക്സ്മാപ്::ഡൊമൈൻ (pixmap::domain) തരം:{1}"
 
@@ -1701,8 +1705,8 @@ msgstr ""
 msgid "Toolbar found: {1}"
 msgstr "ടൂൾബാർ കണ്ടെത്തി: {1}"
 
-#: ../src/core/model/Document.cpp:321 ../src/core/model/Document.cpp:330
-#: ../src/core/model/Document.cpp:333
+#: ../src/core/model/Document.cpp:322 ../src/core/model/Document.cpp:331
+#: ../src/core/model/Document.cpp:334
 msgid "Document not loaded! ({1}), {2}"
 msgstr "ഡോക്യുമെന്റ് തുറക്കപ്പെട്ടില്ല! ({1}), {2}"
 
