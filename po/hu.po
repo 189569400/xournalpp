@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-13 12:54+0000\n"
-"PO-Revision-Date: 2024-02-15 08:08\n"
+"POT-Creation-Date: 2024-02-17 21:38+0000\n"
+"PO-Revision-Date: 2024-02-17 21:50\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -23,35 +23,35 @@ msgid "Audio folder not set or invalid! Recording won't work!\n"
 msgstr "A hangmappa nincs beállítva vagy érvénytelen! A felvétel nem fog működni!\n"
 "Kérjük, állítsa be a felvétel mappáját a „Beállítások > Hangfelvétel” menüpontban"
 
-#: ../src/core/control/Control.cpp:218
+#: ../src/core/control/Control.cpp:219
 msgid "Filesystem error: {1}"
 msgstr "Fájlrendszerhiba: {1}"
 
-#: ../src/core/control/Control.cpp:230
+#: ../src/core/control/Control.cpp:231
 msgid "Could not remove old autosave file \"{1}\": {2}"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:547
+#: ../src/core/control/Control.cpp:548
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
 msgstr "Az eszköztárbeállítás \"{1}\" rögzítve van, szeretne belőle egy módosítható másolatot készíteni?"
 
-#: ../src/core/control/Control.cpp:550
+#: ../src/core/control/Control.cpp:551
 msgid "Yes"
 msgstr "Igen"
 
-#: ../src/core/control/Control.cpp:550
+#: ../src/core/control/Control.cpp:551
 msgid "No"
 msgstr "Nem"
 
-#: ../src/core/control/Control.cpp:729
+#: ../src/core/control/Control.cpp:730
 msgid "No pdf pages available to append. You may need to reopen the document first."
 msgstr "Nem érhető el több hozzáfűzhető pdf oldal. Szükséges lehet a dokumentum újbóli megnyitása."
 
-#: ../src/core/control/Control.cpp:743
+#: ../src/core/control/Control.cpp:744
 msgid "Unable to retrieve pdf page."
 msgstr "Nem sikerült a PDF-oldal lekérése."
 
-#: ../src/core/control/Control.cpp:1310
+#: ../src/core/control/Control.cpp:1311
 msgid "Do not open Autosave files. They may will be overwritten!\n"
 "Copy the files to another folder.\n"
 "Files from Folder {1} cannot be opened."
@@ -59,64 +59,68 @@ msgstr "Ne nyissa meg az automatikusan mentett fájlokat. Felülíródhatnak!\n"
 "Másolja a fájlokat egy másik mappába.\n"
 "A(z) {1} mappában található fájlok nem nyithatók meg."
 
-#: ../src/core/control/Control.cpp:1324
+#: ../src/core/control/Control.cpp:1325
 msgid "file: {1}"
 msgstr "fájl: {1}"
 
-#: ../src/core/control/Control.cpp:1348
+#: ../src/core/control/Control.cpp:1349
 msgid "Error opening file \"{1}\""
 msgstr "Hiba történt a fájl megnyitása közben: {1}"
 
-#: ../src/core/control/Control.cpp:1356
+#: ../src/core/control/Control.cpp:1357
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
 msgstr "A betöltendő fájl fájlformátumának verziója újabb, mint a Xournal++ jelen verziója által jelenleg támogatott, ezért előfordulhat, hogy nem töltődik be megfelelően. Megnyitás mégis?"
 
-#: ../src/core/control/Control.cpp:1483
+#: ../src/core/control/Control.cpp:1486
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
 msgstr "A csatolt háttérfájl nem található. Lehet, hogy áthelyezték, átnevezték vagy törölték."
 
-#: ../src/core/control/Control.cpp:1486
+#: ../src/core/control/Control.cpp:1489
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
 "It was last seen at: \"{2}\""
 msgstr "A(z) {1}-háttérfájl nem található. Lehet, hogy áthelyezték, átnevezték vagy törölték.\n"
 "Utoljára itt látták: {2}"
 
-#: ../src/core/control/Control.cpp:1496
+#: ../src/core/control/Control.cpp:1499
 msgid "\n"
 "Proposed replacement file: \"{1}\""
 msgstr "\n"
 "Javasolt cserefájl: {1}"
 
-#: ../src/core/control/Control.cpp:1506
-msgid "Use proposed PDF"
-msgstr "Használja a javasolt PDF-fájlt"
-
-#: ../src/core/control/Control.cpp:1508
+#: ../src/core/control/Control.cpp:1504
 msgid "Select another PDF"
 msgstr "Másik PDF kijelölése"
 
-#: ../src/core/control/Control.cpp:1509
+#: ../src/core/control/Control.cpp:1505
 msgid "Remove PDF Background"
 msgstr "PDF-háttér eltávolítása"
 
-#: ../src/core/control/Control.cpp:1510 ../src/core/control/Control.cpp:1925
+#: ../src/core/control/Control.cpp:1506 ../src/core/control/Control.cpp:1927
 #: ../src/core/control/XournalMain.cpp:200
 #: ../src/core/gui/sidebar/Sidebar.cpp:87
 msgid "Cancel"
 msgstr "Mégse"
 
-#: ../src/core/control/Control.cpp:1603
+#: ../src/core/control/Control.cpp:1509
+msgid "Use proposed PDF"
+msgstr "Használja a javasolt PDF-fájlt"
+
+#: ../src/core/control/Control.cpp:1512
+msgid "Missing PDF background file"
+msgstr ""
+
+#: ../src/core/control/Control.cpp:1605
 msgid "Error annotate PDF file \"{1}\"\n"
 "{2}"
 msgstr "Hiba történt a(z) „{1}” PDF-fájl megjegyzése közben\n"
 "{2}"
 
-#: ../src/core/control/Control.cpp:1707
+#: ../src/core/control/Control.cpp:1709
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
 msgid "Save File"
 msgstr "Fájl mentése"
 
-#: ../src/core/control/Control.cpp:1707
+#: ../src/core/control/Control.cpp:1709
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:16
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:17
@@ -124,47 +128,47 @@ msgstr "Fájl mentése"
 msgid "_Cancel"
 msgstr "_Mégse"
 
-#: ../src/core/control/Control.cpp:1708
+#: ../src/core/control/Control.cpp:1710
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:112
 msgid "_Save"
 msgstr "M_entés"
 
-#: ../src/core/control/Control.cpp:1713
+#: ../src/core/control/Control.cpp:1715
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:63
 msgid "Xournal++ files"
 msgstr "Xournal++ fájlok"
 
-#: ../src/core/control/Control.cpp:1760
+#: ../src/core/control/Control.cpp:1762
 msgid "Select font"
 msgstr "Betűkészlet kijelölése"
 
-#: ../src/core/control/Control.cpp:1775
+#: ../src/core/control/Control.cpp:1777
 #: ../src/core/gui/toolbarMenubar/ColorSelectorToolItem.cpp:59
 msgid "Select color"
 msgstr "Szín kijelölése"
 
-#: ../src/core/control/Control.cpp:1797
+#: ../src/core/control/Control.cpp:1799
 msgid "Unsaved Document"
 msgstr "Nem mentett dokumentum"
 
-#: ../src/core/control/Control.cpp:1916
+#: ../src/core/control/Control.cpp:1918
 msgid "Document file was removed."
 msgstr "A dokumentumfájl eltávolításra került."
 
-#: ../src/core/control/Control.cpp:1916
+#: ../src/core/control/Control.cpp:1918
 msgid "This document is not saved yet."
 msgstr "Ez a dokumentum még nincs elmentve."
 
-#: ../src/core/control/Control.cpp:1917
+#: ../src/core/control/Control.cpp:1919
 msgid "Save As..."
 msgstr "Mentés másként..."
 
-#: ../src/core/control/Control.cpp:1917 ../src/core/control/jobs/SaveJob.cpp:24
+#: ../src/core/control/Control.cpp:1919 ../src/core/control/jobs/SaveJob.cpp:24
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:337
 msgid "Save"
 msgstr "Mentés"
 
-#: ../src/core/control/Control.cpp:1922
+#: ../src/core/control/Control.cpp:1924
 msgid "Discard"
 msgstr "Módosítások elvetése"
 
