@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-12 04:47+0000\n"
-"PO-Revision-Date: 2024-02-12 04:49\n"
+"POT-Creation-Date: 2024-02-17 21:38+0000\n"
+"PO-Revision-Date: 2024-02-17 21:50\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Language: id_ID\n"
@@ -23,35 +23,35 @@ msgid "Audio folder not set or invalid! Recording won't work!\n"
 msgstr "Folder audio belum diatur atau tidak absah! Tidak dapat merekam!\n"
 "Mohon atur folder rekaman pada \"Preferensi > Rekaman Audio\""
 
-#: ../src/core/control/Control.cpp:218
+#: ../src/core/control/Control.cpp:219
 msgid "Filesystem error: {1}"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:230
+#: ../src/core/control/Control.cpp:231
 msgid "Could not remove old autosave file \"{1}\": {2}"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:547
+#: ../src/core/control/Control.cpp:548
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
 msgstr "Konfigurasi bilah alat \"{1}\" sudah ada secara bawaan, apakah Anda ingin membuat salinan untuk mengeditnya?"
 
-#: ../src/core/control/Control.cpp:550
+#: ../src/core/control/Control.cpp:551
 msgid "Yes"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:550
+#: ../src/core/control/Control.cpp:551
 msgid "No"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:729
+#: ../src/core/control/Control.cpp:730
 msgid "No pdf pages available to append. You may need to reopen the document first."
 msgstr "Tidak ada halaman pdf yang bisa ditambahkan. Anda mungkin perlu membuka dokumen itu terlebih dahulu."
 
-#: ../src/core/control/Control.cpp:743
+#: ../src/core/control/Control.cpp:744
 msgid "Unable to retrieve pdf page."
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1310
+#: ../src/core/control/Control.cpp:1311
 msgid "Do not open Autosave files. They may will be overwritten!\n"
 "Copy the files to another folder.\n"
 "Files from Folder {1} cannot be opened."
@@ -59,62 +59,66 @@ msgstr "Jangan membuka berkas Simpan Otomatis. Berkas itu mungkin akan ditimpa!\
 "Salin berkas ke folder yang lain.\n"
 "Berkas dari Folder {1} tidak dapat dibuka."
 
-#: ../src/core/control/Control.cpp:1324
+#: ../src/core/control/Control.cpp:1325
 msgid "file: {1}"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1348
+#: ../src/core/control/Control.cpp:1349
 msgid "Error opening file \"{1}\""
 msgstr "Kesalahan ketika membuka berkas \"{1}\""
 
-#: ../src/core/control/Control.cpp:1356
+#: ../src/core/control/Control.cpp:1357
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1483
+#: ../src/core/control/Control.cpp:1486
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1486
+#: ../src/core/control/Control.cpp:1489
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
 "It was last seen at: \"{2}\""
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1496
+#: ../src/core/control/Control.cpp:1499
 msgid "\n"
 "Proposed replacement file: \"{1}\""
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1506
-msgid "Use proposed PDF"
-msgstr ""
-
-#: ../src/core/control/Control.cpp:1508
+#: ../src/core/control/Control.cpp:1504
 msgid "Select another PDF"
 msgstr "Pilih PDF lain"
 
-#: ../src/core/control/Control.cpp:1509
+#: ../src/core/control/Control.cpp:1505
 msgid "Remove PDF Background"
 msgstr "Buang Latar Belakang PDF"
 
-#: ../src/core/control/Control.cpp:1510 ../src/core/control/Control.cpp:1925
+#: ../src/core/control/Control.cpp:1506 ../src/core/control/Control.cpp:1927
 #: ../src/core/control/XournalMain.cpp:200
 #: ../src/core/gui/sidebar/Sidebar.cpp:87
 msgid "Cancel"
 msgstr "Batal"
 
-#: ../src/core/control/Control.cpp:1603
+#: ../src/core/control/Control.cpp:1509
+msgid "Use proposed PDF"
+msgstr ""
+
+#: ../src/core/control/Control.cpp:1512
+msgid "Missing PDF background file"
+msgstr ""
+
+#: ../src/core/control/Control.cpp:1605
 msgid "Error annotate PDF file \"{1}\"\n"
 "{2}"
 msgstr "Kesalahan saat anotasi berkas PDF \"{1}\"\n"
 "{2}"
 
-#: ../src/core/control/Control.cpp:1707
+#: ../src/core/control/Control.cpp:1709
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
 msgid "Save File"
 msgstr "Simpan Berkas"
 
-#: ../src/core/control/Control.cpp:1707
+#: ../src/core/control/Control.cpp:1709
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:16
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:17
@@ -122,47 +126,47 @@ msgstr "Simpan Berkas"
 msgid "_Cancel"
 msgstr "_Batal"
 
-#: ../src/core/control/Control.cpp:1708
+#: ../src/core/control/Control.cpp:1710
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:112
 msgid "_Save"
 msgstr "_Simpan"
 
-#: ../src/core/control/Control.cpp:1713
+#: ../src/core/control/Control.cpp:1715
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:63
 msgid "Xournal++ files"
 msgstr "Berkas Xournal++"
 
-#: ../src/core/control/Control.cpp:1760
+#: ../src/core/control/Control.cpp:1762
 msgid "Select font"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1775
+#: ../src/core/control/Control.cpp:1777
 #: ../src/core/gui/toolbarMenubar/ColorSelectorToolItem.cpp:59
 msgid "Select color"
 msgstr "Pilih warna"
 
-#: ../src/core/control/Control.cpp:1797
+#: ../src/core/control/Control.cpp:1799
 msgid "Unsaved Document"
 msgstr "Dokumen Belum Disimpan"
 
-#: ../src/core/control/Control.cpp:1916
+#: ../src/core/control/Control.cpp:1918
 msgid "Document file was removed."
 msgstr "Berkas dokumen telah dihapus."
 
-#: ../src/core/control/Control.cpp:1916
+#: ../src/core/control/Control.cpp:1918
 msgid "This document is not saved yet."
 msgstr "Dokumen ini belum disimpan."
 
-#: ../src/core/control/Control.cpp:1917
+#: ../src/core/control/Control.cpp:1919
 msgid "Save As..."
 msgstr "Simpan Sebagai..."
 
-#: ../src/core/control/Control.cpp:1917 ../src/core/control/jobs/SaveJob.cpp:24
+#: ../src/core/control/Control.cpp:1919 ../src/core/control/jobs/SaveJob.cpp:24
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:337
 msgid "Save"
 msgstr "Simpan"
 
-#: ../src/core/control/Control.cpp:1922
+#: ../src/core/control/Control.cpp:1924
 msgid "Discard"
 msgstr "Buang"
 
@@ -750,15 +754,15 @@ msgid "Unexpected tag in document: \"{1}\""
 msgstr "Tag tak diharapkan di dokumen: \"{1}\""
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:379
-#: ../src/core/control/xojfile/LoadHandler.cpp:407
+#: ../src/core/control/xojfile/LoadHandler.cpp:408
 msgid "Could not read image: {1}. Error message: {2}"
 msgstr "Tidak dapat membaca gambar: {1}. Pesan kesalahan: {2}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:417
+#: ../src/core/control/xojfile/LoadHandler.cpp:418
 msgid "Could not read page number for cloned background image: {1}."
 msgstr "Tidak dapat membaca nomor halaman untuk salinan latar belakang gambar: {1}."
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:425
+#: ../src/core/control/xojfile/LoadHandler.cpp:426
 msgid "Unknown pixmap::domain type: {1}"
 msgstr "Tipe pixmap::domain tidak diketahui: {1}"
 
@@ -1704,8 +1708,8 @@ msgstr ""
 msgid "Toolbar found: {1}"
 msgstr "Bilah Alat ditemukan: {1}"
 
-#: ../src/core/model/Document.cpp:321 ../src/core/model/Document.cpp:330
-#: ../src/core/model/Document.cpp:333
+#: ../src/core/model/Document.cpp:322 ../src/core/model/Document.cpp:331
+#: ../src/core/model/Document.cpp:334
 msgid "Document not loaded! ({1}), {2}"
 msgstr "Dokumen tidak dimuat! ({1}), {2}"
 
