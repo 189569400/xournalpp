@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-17 21:38+0000\n"
-"PO-Revision-Date: 2024-02-17 21:50\n"
+"PO-Revision-Date: 2024-02-18 13:37\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -1136,11 +1136,11 @@ msgstr ""
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:33
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:37
 msgid "Fill color"
-msgstr ""
+msgstr "Kolor wypełnienia"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:36
 msgid "Pen Options"
-msgstr ""
+msgstr "Opcje pióra"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:40
 msgid "PDF Text Options"
@@ -1663,57 +1663,57 @@ msgstr "Suwak przybliżenia"
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:109
 msgctxt "Color"
 msgid "Black"
-msgstr ""
+msgstr "Czarny"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:110
 msgctxt "Color"
 msgid "Green"
-msgstr ""
+msgstr "Zielony"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:111
 msgctxt "Color"
 msgid "Light Blue"
-msgstr ""
+msgstr "Jasnoniebieski"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:112
 msgctxt "Color"
 msgid "Light Green"
-msgstr ""
+msgstr "Jasnozielony"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:113
 msgctxt "Color"
 msgid "Blue"
-msgstr ""
+msgstr "Niebieski"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:114
 msgctxt "Color"
 msgid "Gray"
-msgstr ""
+msgstr "Szary"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:115
 msgctxt "Color"
 msgid "Red"
-msgstr ""
+msgstr "Czerwony"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:116
 msgctxt "Color"
 msgid "Magenta"
-msgstr ""
+msgstr "Magenta"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:117
 msgctxt "Color"
 msgid "Orange"
-msgstr ""
+msgstr "Pomarańczowy"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:118
 msgctxt "Color"
 msgid "Yellow"
-msgstr ""
+msgstr "Żółty"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:119
 msgctxt "Color"
 msgid "White"
-msgstr ""
+msgstr "Biały"
 
 #: ../src/core/gui/toolbarMenubar/model/ToolbarData.cpp:104
 msgid "Toolbar found: {1}"
@@ -1915,7 +1915,7 @@ msgstr ""
 
 #: ../src/util/OutputStream.cpp:49
 msgid "Error code {1}. Message:"
-msgstr ""
+msgstr "Kod błędu {1}. Komunikat:"
 
 #: ../src/util/OutputStream.cpp:69
 msgid "Error occurred while closing file: \"{1}\""
@@ -3224,7 +3224,7 @@ msgstr "<i>Jeśli dodasz miejsce obok stron, możesz wybrać obszar ekranu na kt
 
 #: ../ui/settings.glade:4560
 msgid "Add additional horizontal space"
-msgstr ""
+msgstr "Dodaj dodatkową przestrzeń poziomą"
 
 #: ../ui/settings.glade:4576
 msgid "Add additional vertical space"
@@ -3634,20 +3634,20 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:13
 msgid "Open"
-msgstr ""
+msgstr "Otwórz"
 
 #. Filled dynamically
 #: ../ui/mainmenubar.xml:19
 msgid "Recent _Documents"
-msgstr ""
+msgstr "Ostatnie dokumenty"
 
 #: ../ui/mainmenubar.xml:22
 msgid "_Annotate PDF"
-msgstr ""
+msgstr "_Komentuj plik PDF"
 
 #: ../ui/mainmenubar.xml:31
 msgid "Save As"
-msgstr ""
+msgstr "Zapisz jako"
 
 #: ../ui/mainmenubar.xml:39
 msgid "_Export as PDF"
@@ -3671,7 +3671,7 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:101
 msgid "Find"
-msgstr ""
+msgstr "Znajdź"
 
 #: ../ui/mainmenubar.xml:115
 msgid "Arrange Selection"
@@ -3679,19 +3679,19 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:118
 msgid "Bring to Front"
-msgstr ""
+msgstr "Przenieś na wierzch"
 
 #: ../ui/mainmenubar.xml:123
 msgid "Bring Forward"
-msgstr ""
+msgstr "Przenieś wyżej"
 
 #: ../ui/mainmenubar.xml:128
 msgid "Send Backward"
-msgstr ""
+msgstr "Przenieś warstwę niżej"
 
 #: ../ui/mainmenubar.xml:133
 msgid "Send to Back"
-msgstr ""
+msgstr "Przenieś na spód"
 
 #: ../ui/mainmenubar.xml:142
 msgid "Move Selection Layer Up"
@@ -3715,43 +3715,43 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:175
 msgid "_Presentation Mode"
-msgstr ""
+msgstr "_Tryb prezentacji"
 
 #: ../ui/mainmenubar.xml:192
 msgid "Show Toolbars"
-msgstr ""
+msgstr "Pokaż paski narzędzi"
 
 #: ../ui/mainmenubar.xml:199
 msgid "Layout"
-msgstr ""
+msgstr "Układ"
 
 #: ../ui/mainmenubar.xml:202
 msgid "_Horizontal"
-msgstr ""
+msgstr "_Poziomo"
 
 #: ../ui/mainmenubar.xml:207
 msgid "_Vertical"
-msgstr ""
+msgstr "_Pionowo"
 
 #: ../ui/mainmenubar.xml:214
 msgid "_Left to Right"
-msgstr ""
+msgstr "_Od lewej do prawej"
 
 #: ../ui/mainmenubar.xml:219
 msgid "_Right to Left"
-msgstr ""
+msgstr "_Od prawej do lewej"
 
 #: ../ui/mainmenubar.xml:226
 msgid "_Top to Bottom"
-msgstr ""
+msgstr "_Od góry do dołu"
 
 #: ../ui/mainmenubar.xml:231
 msgid "_Bottom to Top"
-msgstr ""
+msgstr "_Od dołu do góry"
 
 #: ../ui/mainmenubar.xml:238
 msgid "_Cols/Rows"
-msgstr ""
+msgstr "_Kolumny/Wiersze"
 
 #: ../ui/mainmenubar.xml:241
 msgid "Set Columns"
@@ -3791,7 +3791,7 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:287
 msgid "Set Rows"
-msgstr ""
+msgstr "Ustaw wiersze"
 
 #: ../ui/mainmenubar.xml:291
 msgid "_1 Row"
@@ -3959,7 +3959,7 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:507
 msgid "_Tools"
-msgstr ""
+msgstr "_Narzędzia"
 
 #: ../ui/mainmenubar.xml:510
 msgid "_Pen"
@@ -3967,7 +3967,7 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:516
 msgid "_Eraser"
-msgstr ""
+msgstr "_Gumka"
 
 #: ../ui/mainmenubar.xml:522
 msgid "Select Linear Text"
@@ -4100,11 +4100,11 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:859
 msgid "Help"
-msgstr ""
+msgstr "Pomoc"
 
 #: ../ui/mainmenubar.xml:863
 msgid "About"
-msgstr ""
+msgstr "O aplikacji"
 
 #: ../resources-templates/pagetemplates.ini.in:17
 msgid "Ruled with vertical line on the right"
@@ -4116,7 +4116,7 @@ msgstr ""
 
 #: ../resources-templates/toolbar.ini.in:50
 msgid "All Tools"
-msgstr ""
+msgstr "Wszystkie narzędzia"
 
 #: ../resources-templates/toolbar.ini.in:55
 msgid "Portrait"
@@ -4132,7 +4132,7 @@ msgstr ""
 
 #: ../resources-templates/toolbar.ini.in:69
 msgid "Xournal++"
-msgstr ""
+msgstr "Xournal++"
 
 #: ../resources-templates/toolbar.ini.in:77
 msgid "Right hand Note Taking"
