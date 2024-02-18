@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-17 21:38+0000\n"
-"PO-Revision-Date: 2024-02-18 11:31\n"
+"PO-Revision-Date: 2024-02-18 12:34\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -1018,7 +1018,7 @@ msgstr "PDFからテキストを選択"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:100
 msgid "Select Area Text from pdf"
-msgstr ""
+msgstr "PDFの特定領域からテキストを選択"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:125
 msgid "Drawing Type - don't change"
@@ -1135,7 +1135,7 @@ msgstr "蛍光ペンのオプション"
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:33
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:37
 msgid "Fill color"
-msgstr ""
+msgstr "塗りつぶし色"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:36
 msgid "Pen Options"
@@ -1646,7 +1646,7 @@ msgstr "ページ"
 
 #: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:12
 msgid "PDF text selection dropdown menu"
-msgstr ""
+msgstr "PDFテキスト選択ドロップダウンメニュー"
 
 #: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:14
 msgid "Select PDF Text In Rectangle"
@@ -2255,11 +2255,11 @@ msgstr "選択したテキストをコピー"
 
 #: ../ui/main.glade:751
 msgid "Highlight selected text"
-msgstr ""
+msgstr "選択したテキストをハイライト表示"
 
 #: ../ui/main.glade:771
 msgid "Underline selected text"
-msgstr ""
+msgstr "選択したテキストを下線表示"
 
 #: ../ui/main.glade:791
 msgid "Strikethrough selected text"
@@ -3635,19 +3635,19 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:31
 msgid "Save As"
-msgstr ""
+msgstr "名前を付けて保存"
 
 #: ../ui/mainmenubar.xml:39
 msgid "_Export as PDF"
-msgstr ""
+msgstr "PDFとしてエクスポート(_E)"
 
 #: ../ui/mainmenubar.xml:43
 msgid "Export as..."
-msgstr ""
+msgstr "エクスポート…"
 
 #: ../ui/mainmenubar.xml:55
 msgid "Quit"
-msgstr ""
+msgstr "終了"
 
 #: ../ui/mainmenubar.xml:62
 msgid "_Edit"
@@ -3655,11 +3655,11 @@ msgstr "編集(_E)"
 
 #: ../ui/mainmenubar.xml:94
 msgid "Select All"
-msgstr ""
+msgstr "すべて選択"
 
 #: ../ui/mainmenubar.xml:101
 msgid "Find"
-msgstr ""
+msgstr "検索"
 
 #: ../ui/mainmenubar.xml:115
 msgid "Arrange Selection"
@@ -3695,11 +3695,11 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:168
 msgid "_View"
-msgstr ""
+msgstr "表示(_V)"
 
 #: ../ui/mainmenubar.xml:171
 msgid "_Pair Pages"
-msgstr ""
+msgstr "2枚表示(_P)"
 
 #: ../ui/mainmenubar.xml:175
 msgid "_Presentation Mode"
@@ -3843,7 +3843,7 @@ msgstr "ウィンドウに合わせる"
 
 #: ../ui/mainmenubar.xml:379
 msgid "_Navigation"
-msgstr ""
+msgstr "ナビゲーション(_N)"
 
 #: ../ui/mainmenubar.xml:382
 msgid "_First Page"
@@ -3951,7 +3951,7 @@ msgstr "ツール(_T)"
 
 #: ../ui/mainmenubar.xml:510
 msgid "_Pen"
-msgstr ""
+msgstr "ペン(_P)"
 
 #: ../ui/mainmenubar.xml:516
 msgid "_Eraser"
@@ -3959,11 +3959,11 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:522
 msgid "Select Linear Text"
-msgstr ""
+msgstr "線形テキストを選択"
 
 #: ../ui/mainmenubar.xml:528
 msgid "Select Text In Rectangle"
-msgstr ""
+msgstr "長方形でテキストを選択"
 
 #: ../ui/mainmenubar.xml:534
 msgid "_Highlighter"
@@ -4007,7 +4007,7 @@ msgstr "ハンドツール(_a)"
 
 #: ../ui/mainmenubar.xml:660
 msgid "Pen _Options"
-msgstr ""
+msgstr "ペンのオプション(_O)"
 
 #: ../ui/mainmenubar.xml:663 ../ui/mainmenubar.xml:725
 #: ../ui/mainmenubar.xml:772
@@ -4064,7 +4064,7 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:809
 msgid "Select PDF Text Options"
-msgstr ""
+msgstr "PDFテキストオプションの選択"
 
 #: ../ui/mainmenubar.xml:812
 msgid "Marker Opacity"
