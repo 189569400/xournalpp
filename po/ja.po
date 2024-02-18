@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-17 21:38+0000\n"
-"PO-Revision-Date: 2024-02-17 21:50\n"
+"PO-Revision-Date: 2024-02-18 11:31\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -25,11 +25,11 @@ msgstr "オーディオフォルダーが未設定か正しくないため録音
 
 #: ../src/core/control/Control.cpp:219
 msgid "Filesystem error: {1}"
-msgstr ""
+msgstr "ファイルシステムエラー: {1}"
 
 #: ../src/core/control/Control.cpp:231
 msgid "Could not remove old autosave file \"{1}\": {2}"
-msgstr ""
+msgstr "古い自動保存ファイル\"{1}\"を削除できませんでした： {2}"
 
 #: ../src/core/control/Control.cpp:548
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
@@ -106,7 +106,7 @@ msgstr "提案されたPDFを使用する"
 
 #: ../src/core/control/Control.cpp:1512
 msgid "Missing PDF background file"
-msgstr ""
+msgstr "PDF背景ファイルがありません"
 
 #: ../src/core/control/Control.cpp:1605
 msgid "Error annotate PDF file \"{1}\"\n"
@@ -985,7 +985,7 @@ msgstr "画像を挿入"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:92
 msgid "Vertical space"
-msgstr ""
+msgstr "垂直方向の間隔"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:93
 msgid "Select region"
@@ -1147,12 +1147,13 @@ msgstr "PDFテキストオプション"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:41
 msgid "PDF Text Marker"
-msgstr ""
+msgstr "PDF テキストマーカー"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:49
 msgid "<b>{1}</b>\n"
 "{2}{3}"
-msgstr ""
+msgstr "<b>{1}</b>\n"
+"{2}{3}"
 
 #: ../src/core/gui/dialog/SettingsDialog.cpp:73
 msgid "<b>No devices were found. This seems wrong - maybe file a bug report?</b>"
@@ -1241,7 +1242,7 @@ msgstr "リストを消去"
 
 #: ../src/core/gui/menus/popoverMenus/PageTypeSelectionPopover.cpp:138
 msgid "Copy current background"
-msgstr ""
+msgstr "現在の背景をコピー"
 
 #: ../src/core/gui/menus/popoverMenus/PageTypeSelectionPopover.cpp:156
 msgid "Apply to current page"
@@ -2016,7 +2017,7 @@ msgstr "ソースコード/バグトラッカー"
 
 #: ../ui/about.glade:283
 msgid "With help from the community"
-msgstr ""
+msgstr "その他、コミュニティからのヘルプなど"
 
 #: ../ui/about.glade:311
 msgid "License"
@@ -3617,11 +3618,11 @@ msgstr "ツールバーの管理"
 
 #: ../ui/mainmenubar.xml:5
 msgid "_File"
-msgstr ""
+msgstr "ファイル(_F)"
 
 #: ../ui/mainmenubar.xml:13
 msgid "Open"
-msgstr ""
+msgstr "開く"
 
 #. Filled dynamically
 #: ../ui/mainmenubar.xml:19
@@ -3650,7 +3651,7 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:62
 msgid "_Edit"
-msgstr ""
+msgstr "編集(_E)"
 
 #: ../ui/mainmenubar.xml:94
 msgid "Select All"
@@ -3706,7 +3707,7 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:192
 msgid "Show Toolbars"
-msgstr ""
+msgstr "ツールバーを表示"
 
 #: ../ui/mainmenubar.xml:199
 msgid "Layout"
@@ -3826,11 +3827,11 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:359
 msgid "Zoom In"
-msgstr ""
+msgstr "拡大"
 
 #: ../ui/mainmenubar.xml:364
 msgid "Zoom Out"
-msgstr ""
+msgstr "縮小"
 
 #: ../ui/mainmenubar.xml:369
 msgid "Normal Size"
@@ -3838,7 +3839,7 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:373
 msgid "Zoom to Fit"
-msgstr ""
+msgstr "ウィンドウに合わせる"
 
 #: ../ui/mainmenubar.xml:379
 msgid "_Navigation"
@@ -3946,7 +3947,7 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:507
 msgid "_Tools"
-msgstr ""
+msgstr "ツール(_T)"
 
 #: ../ui/mainmenubar.xml:510
 msgid "_Pen"
@@ -3978,7 +3979,7 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:552
 msgid "_Default Tool"
-msgstr ""
+msgstr "デフォルトツール(_D)"
 
 #: ../ui/mainmenubar.xml:559
 msgid "Drawing Type"
@@ -4002,7 +4003,7 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:644
 msgid "H_and Tool"
-msgstr ""
+msgstr "ハンドツール(_a)"
 
 #: ../ui/mainmenubar.xml:660
 msgid "Pen _Options"
@@ -4083,11 +4084,11 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:855
 msgid "_Help"
-msgstr ""
+msgstr "ヘルプ(_H)"
 
 #: ../ui/mainmenubar.xml:859
 msgid "Help"
-msgstr ""
+msgstr "ヘルプ"
 
 #: ../ui/mainmenubar.xml:863
 msgid "About"
@@ -4103,7 +4104,7 @@ msgstr ""
 
 #: ../resources-templates/toolbar.ini.in:50
 msgid "All Tools"
-msgstr ""
+msgstr "すべてのツール"
 
 #: ../resources-templates/toolbar.ini.in:55
 msgid "Portrait"
@@ -4119,7 +4120,7 @@ msgstr ""
 
 #: ../resources-templates/toolbar.ini.in:69
 msgid "Xournal++"
-msgstr ""
+msgstr "Xournal++"
 
 #: ../resources-templates/toolbar.ini.in:77
 msgid "Right hand Note Taking"
@@ -4127,15 +4128,15 @@ msgstr ""
 
 #: ../resources-templates/toolbar.ini.in:80
 msgid "Toolbar Left"
-msgstr ""
+msgstr "ツールバー左"
 
 #: ../resources-templates/toolbar.ini.in:86
 msgid "Toolbar Right"
-msgstr ""
+msgstr "ツールバー右"
 
 #: ../resources-templates/toolbar.ini.in:101
 msgid "Empty Toolbar"
-msgstr ""
+msgstr "ツールバーを空にする"
 
 #: ../desktop/com.github.xournalpp.xournalpp.desktop.in:6
 msgid "Take handwritten notes"
@@ -4263,10 +4264,10 @@ msgstr ""
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.xml.in:4
 msgid "Xournal note file"
-msgstr ""
+msgstr "Xournal ノートファイル"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.xml.in:8
 #: ../resources-templates/com.github.xournalpp.xournalpp.xml.in:12
 msgid "Xournal++ note file"
-msgstr ""
+msgstr "Xournal++ ノートファイル"
 
