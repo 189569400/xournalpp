@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-17 21:38+0000\n"
-"PO-Revision-Date: 2024-02-18 12:34\n"
+"PO-Revision-Date: 2024-02-18 13:37\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -2954,11 +2954,11 @@ msgstr "ページ間の背景色"
 
 #: ../ui/settings.glade:3057
 msgid "Selection Color (Text, Stroke Selection etc.)"
-msgstr ""
+msgstr "選択色（テキスト、ストローク選択など）"
 
 #: ../ui/settings.glade:3083
 msgid "Active Selection Color (Search Results etc.)"
-msgstr ""
+msgstr "アクティブ選択色（検索結果など）"
 
 #: ../ui/settings.glade:3105
 msgid "Dark Theme (requires restart)"
@@ -3371,11 +3371,11 @@ msgstr ""
 
 #: ../ui/settings.glade:5241
 msgid "Try to select object first."
-msgstr ""
+msgstr "最初にオブジェクトを選択してください。"
 
 #: ../ui/settings.glade:5246 ../ui/settings.glade:5276
 msgid "Try to select object first; if nothing selected then show floating toolbox if enabled."
-msgstr ""
+msgstr "最初にオブジェクトを選択してみてください。選択されていない場合、有効であればフローティングツールボックスを表示します。"
 
 #: ../ui/settings.glade:5259
 msgid "All three conditions must be met before stroke is ignored.\n"
@@ -3663,7 +3663,7 @@ msgstr "検索"
 
 #: ../ui/mainmenubar.xml:115
 msgid "Arrange Selection"
-msgstr ""
+msgstr "選択範囲を調整"
 
 #: ../ui/mainmenubar.xml:118
 msgid "Bring to Front"
@@ -3683,11 +3683,11 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:142
 msgid "Move Selection Layer Up"
-msgstr ""
+msgstr "選択したレイヤーを上に移動"
 
 #: ../ui/mainmenubar.xml:146
 msgid "Move Selection Layer Down"
-msgstr ""
+msgstr "選択したレイヤーを下に移動"
 
 #: ../ui/mainmenubar.xml:162
 msgid "Preferences"
