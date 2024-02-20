@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-17 21:38+0000\n"
-"PO-Revision-Date: 2024-02-17 21:50\n"
+"PO-Revision-Date: 2024-02-20 16:05\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3662,7 +3662,7 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:13
 msgid "Open"
-msgstr ""
+msgstr "Abrir"
 
 #. Filled dynamically
 #: ../ui/mainmenubar.xml:19
@@ -3683,7 +3683,7 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:43
 msgid "Export as..."
-msgstr ""
+msgstr "Exportar como…"
 
 #: ../ui/mainmenubar.xml:55
 msgid "Quit"
@@ -3695,11 +3695,11 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:94
 msgid "Select All"
-msgstr ""
+msgstr "Seleccionar todo"
 
 #: ../ui/mainmenubar.xml:101
 msgid "Find"
-msgstr ""
+msgstr "Buscar"
 
 #: ../ui/mainmenubar.xml:115
 msgid "Arrange Selection"
@@ -3707,7 +3707,7 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:118
 msgid "Bring to Front"
-msgstr ""
+msgstr "Traer al frente"
 
 #: ../ui/mainmenubar.xml:123
 msgid "Bring Forward"
