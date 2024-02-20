@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-17 21:38+0000\n"
-"PO-Revision-Date: 2024-02-17 21:50\n"
+"PO-Revision-Date: 2024-02-20 17:52\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -25,7 +25,7 @@ msgstr "Audio-Ordner nicht definiert oder ungültig! Die Aufzeichnung wird nicht
 
 #: ../src/core/control/Control.cpp:219
 msgid "Filesystem error: {1}"
-msgstr ""
+msgstr "Dateisystem-Fehler: {1}"
 
 #: ../src/core/control/Control.cpp:231
 msgid "Could not remove old autosave file \"{1}\": {2}"
@@ -107,7 +107,7 @@ msgstr "Nutze das vorgeschlagene PDF"
 
 #: ../src/core/control/Control.cpp:1512
 msgid "Missing PDF background file"
-msgstr ""
+msgstr "Fehlende PDF-Hintergrunddatei"
 
 #: ../src/core/control/Control.cpp:1605
 msgid "Error annotate PDF file \"{1}\"\n"
@@ -1832,7 +1832,7 @@ msgstr "Ebene nach unten zusammenführen"
 
 #: ../src/core/undo/MissingPdfUndoAction.cpp:66
 msgid "Replace missing PDF"
-msgstr ""
+msgstr "Fehlende PDF ersetzen"
 
 #: ../src/core/undo/MoveLayerUndoAction.cpp:26
 msgid "Move layer"
