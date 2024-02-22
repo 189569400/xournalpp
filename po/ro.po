@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-17 21:38+0000\n"
-"PO-Revision-Date: 2024-02-17 21:50\n"
+"POT-Creation-Date: 2024-02-21 23:17+0000\n"
+"PO-Revision-Date: 2024-02-22 15:26\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -25,7 +25,7 @@ msgstr "Dosarul audio nu este stabilit sau e greșit! Înregistrarea nu va func�
 
 #: ../src/core/control/Control.cpp:219
 msgid "Filesystem error: {1}"
-msgstr ""
+msgstr "Eroare a sistemului de fișiere: {1}"
 
 #: ../src/core/control/Control.cpp:231
 msgid "Could not remove old autosave file \"{1}\": {2}"
@@ -107,7 +107,7 @@ msgstr "Folosește fișierul PDF propus"
 
 #: ../src/core/control/Control.cpp:1512
 msgid "Missing PDF background file"
-msgstr ""
+msgstr "Lipsește fișierul fondului PDF"
 
 #: ../src/core/control/Control.cpp:1605
 msgid "Error annotate PDF file \"{1}\"\n"
@@ -1071,7 +1071,7 @@ msgstr "Desenează sistemul de coordonate"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:141
 #: ../src/core/gui/toolbarMenubar/DrawingTypeComboToolButton.cpp:42
-#: ../src/core/undo/RecognizerUndoAction.cpp:55
+#: ../src/core/undo/RecognizerUndoAction.cpp:61
 msgid "Stroke recognizer"
 msgstr "Recunoaște forma"
 
@@ -1350,12 +1350,12 @@ msgid "Print"
 msgstr "Tipărește"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:347
-#: ../src/core/undo/UndoRedoHandler.cpp:183
+#: ../src/core/undo/UndoRedoHandler.cpp:177
 msgid "Undo"
 msgstr "Anulează"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:348
-#: ../src/core/undo/UndoRedoHandler.cpp:195
+#: ../src/core/undo/UndoRedoHandler.cpp:189
 msgid "Redo"
 msgstr "Refă"
 
@@ -1370,7 +1370,7 @@ msgid "Copy"
 msgstr "Copiază"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:352
-#: ../src/core/undo/AddUndoAction.cpp:66
+#: ../src/core/undo/AddUndoAction.cpp:72
 msgid "Paste"
 msgstr "Lipește"
 
@@ -1379,7 +1379,7 @@ msgid "Search"
 msgstr "Caută"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:356
-#: ../src/core/undo/DeleteUndoAction.cpp:66
+#: ../src/core/undo/DeleteUndoAction.cpp:74
 msgid "Delete"
 msgstr "Elimină"
 
@@ -1743,38 +1743,38 @@ msgstr "Nicio pagină de exportat!"
 msgid "Failed to initialize PDF Cairo surface"
 msgstr "Nu s-a reușit inițializarea suprafeței PDF Cairo"
 
-#: ../src/core/undo/AddUndoAction.cpp:64
-#: ../src/core/undo/DeleteUndoAction.cpp:63
-#: ../src/core/undo/EraseUndoAction.cpp:65
+#: ../src/core/undo/AddUndoAction.cpp:70
+#: ../src/core/undo/DeleteUndoAction.cpp:71
+#: ../src/core/undo/EraseUndoAction.cpp:64
 msgid "Erase stroke"
 msgstr "Elimină linia"
 
-#: ../src/core/undo/AddUndoAction.cpp:74
-#: ../src/core/undo/DeleteUndoAction.cpp:74
+#: ../src/core/undo/AddUndoAction.cpp:80
+#: ../src/core/undo/DeleteUndoAction.cpp:82
 msgid "elements"
 msgstr "elemente"
 
-#: ../src/core/undo/AddUndoAction.cpp:82
-#: ../src/core/undo/DeleteUndoAction.cpp:82
+#: ../src/core/undo/AddUndoAction.cpp:88
+#: ../src/core/undo/DeleteUndoAction.cpp:90
 msgid "stroke"
 msgstr "linie"
 
-#: ../src/core/undo/AddUndoAction.cpp:85
-#: ../src/core/undo/DeleteUndoAction.cpp:85
+#: ../src/core/undo/AddUndoAction.cpp:91
+#: ../src/core/undo/DeleteUndoAction.cpp:93
 msgid "image"
 msgstr "imagine"
 
-#: ../src/core/undo/AddUndoAction.cpp:88
-#: ../src/core/undo/DeleteUndoAction.cpp:88
+#: ../src/core/undo/AddUndoAction.cpp:94
+#: ../src/core/undo/DeleteUndoAction.cpp:96
 msgid "latex"
 msgstr "LaTeX"
 
-#: ../src/core/undo/AddUndoAction.cpp:91
-#: ../src/core/undo/DeleteUndoAction.cpp:91
+#: ../src/core/undo/AddUndoAction.cpp:97
+#: ../src/core/undo/DeleteUndoAction.cpp:99
 msgid "text"
 msgstr "text"
 
-#: ../src/core/undo/ColorUndoAction.cpp:90
+#: ../src/core/undo/ColorUndoAction.cpp:97
 msgid "Change color"
 msgstr "Schimbă culoarea"
 
@@ -1782,19 +1782,19 @@ msgstr "Schimbă culoarea"
 msgid "Emergency saved document"
 msgstr "Document salvat de urgență"
 
-#: ../src/core/undo/FillUndoAction.cpp:81
+#: ../src/core/undo/FillUndoAction.cpp:88
 msgid "Change stroke fill"
 msgstr "Schimbă umplerea conturului"
 
-#: ../src/core/undo/FontUndoAction.cpp:110
+#: ../src/core/undo/FontUndoAction.cpp:118
 msgid "Change font"
 msgstr "Schimbă tipul de litere"
 
-#: ../src/core/undo/InsertDeletePageUndoAction.cpp:96
+#: ../src/core/undo/InsertDeletePageUndoAction.cpp:86
 msgid "Page inserted"
 msgstr "Pagină introdusă"
 
-#: ../src/core/undo/InsertDeletePageUndoAction.cpp:100
+#: ../src/core/undo/InsertDeletePageUndoAction.cpp:90
 msgid "Page deleted"
 msgstr "Pagină eliminată"
 
@@ -1814,7 +1814,7 @@ msgstr "Scrie text"
 msgid "Insert latex"
 msgstr "Introdu LaTeX"
 
-#: ../src/core/undo/InsertUndoAction.cpp:64
+#: ../src/core/undo/InsertUndoAction.cpp:70
 msgid "Insert elements"
 msgstr "Introdu elemente"
 
@@ -1822,19 +1822,19 @@ msgstr "Introdu elemente"
 msgid "Rename layer"
 msgstr "Redenumește stratul"
 
-#: ../src/core/undo/LineStyleUndoAction.cpp:78
+#: ../src/core/undo/LineStyleUndoAction.cpp:86
 msgid "Change line style"
 msgstr "Schimbă tipul liniei"
 
-#: ../src/core/undo/MergeLayerDownUndoAction.cpp:39
+#: ../src/core/undo/MergeLayerDownUndoAction.cpp:40
 msgid "Merge layer down"
 msgstr "Unește cu stratul inferior"
 
 #: ../src/core/undo/MissingPdfUndoAction.cpp:66
 msgid "Replace missing PDF"
-msgstr ""
+msgstr "Înlocuiește PDF-ul lipsă"
 
-#: ../src/core/undo/MoveLayerUndoAction.cpp:26
+#: ../src/core/undo/MoveLayerUndoAction.cpp:28
 msgid "Move layer"
 msgstr "Mută stratul"
 
@@ -1842,7 +1842,7 @@ msgstr "Mută stratul"
 msgid "Move"
 msgstr "Mută"
 
-#: ../src/core/undo/PageBackgroundChangedUndoAction.cpp:85
+#: ../src/core/undo/PageBackgroundChangedUndoAction.cpp:97
 msgid "Page background changed"
 msgstr "Fondul paginii a fost schimbat"
 
@@ -1850,23 +1850,23 @@ msgstr "Fondul paginii a fost schimbat"
 msgid "Delete layer"
 msgstr "Elimină stratul"
 
-#: ../src/core/undo/RotateUndoAction.cpp:56
+#: ../src/core/undo/RotateUndoAction.cpp:58
 msgid "Rotation"
 msgstr "Rotaţie"
 
-#: ../src/core/undo/ScaleUndoAction.cpp:60
+#: ../src/core/undo/ScaleUndoAction.cpp:62
 msgid "Scale"
 msgstr "Scală"
 
-#: ../src/core/undo/SizeUndoAction.cpp:108
+#: ../src/core/undo/SizeUndoAction.cpp:118
 msgid "Change stroke width"
 msgstr "Schimbă grosimea liniei"
 
-#: ../src/core/undo/SwapUndoAction.cpp:68
+#: ../src/core/undo/SwapUndoAction.cpp:67
 msgid "Move page upwards"
 msgstr "Mută pagina în sus"
 
-#: ../src/core/undo/SwapUndoAction.cpp:68
+#: ../src/core/undo/SwapUndoAction.cpp:67
 msgid "Move page downwards"
 msgstr "Mută pagina în jos"
 
@@ -1874,23 +1874,23 @@ msgstr "Mută pagina în jos"
 msgid "Edit text"
 msgstr "Modifică textul"
 
-#: ../src/core/undo/UndoRedoHandler.cpp:115
+#: ../src/core/undo/UndoRedoHandler.cpp:112
 msgid "Could not undo \"{1}\"\n"
 "Something went wrong… Please write a bug report…"
 msgstr "Nu s-a putut anula „{1}”\n"
 "Ceva nu a mers bine… Te rugăm să scrii un raport de eroare…"
 
-#: ../src/core/undo/UndoRedoHandler.cpp:144
+#: ../src/core/undo/UndoRedoHandler.cpp:138
 msgid "Could not redo \"{1}\"\n"
 "Something went wrong… Please write a bug report…"
 msgstr "Nu s-a putut reface „{1}”\n"
 "Ceva nu a mers bine… Te rugăm să scrii un raport de eroare…"
 
-#: ../src/core/undo/UndoRedoHandler.cpp:178
+#: ../src/core/undo/UndoRedoHandler.cpp:172
 msgid "Undo: "
 msgstr "Anulează: "
 
-#: ../src/core/undo/UndoRedoHandler.cpp:190
+#: ../src/core/undo/UndoRedoHandler.cpp:184
 msgid "Redo: "
 msgstr "Refă: "
 
