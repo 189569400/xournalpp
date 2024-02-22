@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-17 21:38+0000\n"
-"PO-Revision-Date: 2024-02-17 21:50\n"
+"POT-Creation-Date: 2024-02-21 23:17+0000\n"
+"PO-Revision-Date: 2024-02-22 15:26\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -25,7 +25,7 @@ msgstr "Cartella degli'audio non impostata o invalida! Le registrazioni non funz
 
 #: ../src/core/control/Control.cpp:219
 msgid "Filesystem error: {1}"
-msgstr ""
+msgstr "Errore del filesystem: {1}"
 
 #: ../src/core/control/Control.cpp:231
 msgid "Could not remove old autosave file \"{1}\": {2}"
@@ -107,7 +107,7 @@ msgstr "Usa PDF proposto"
 
 #: ../src/core/control/Control.cpp:1512
 msgid "Missing PDF background file"
-msgstr ""
+msgstr "Manca il file PDF di sfondo"
 
 #: ../src/core/control/Control.cpp:1605
 msgid "Error annotate PDF file \"{1}\"\n"
@@ -1071,7 +1071,7 @@ msgstr "Disegna il sistema di coordinate"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:141
 #: ../src/core/gui/toolbarMenubar/DrawingTypeComboToolButton.cpp:42
-#: ../src/core/undo/RecognizerUndoAction.cpp:55
+#: ../src/core/undo/RecognizerUndoAction.cpp:61
 msgid "Stroke recognizer"
 msgstr "Riconoscitore di Forme"
 
@@ -1350,12 +1350,12 @@ msgid "Print"
 msgstr "Stampa"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:347
-#: ../src/core/undo/UndoRedoHandler.cpp:183
+#: ../src/core/undo/UndoRedoHandler.cpp:177
 msgid "Undo"
 msgstr "Annulla"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:348
-#: ../src/core/undo/UndoRedoHandler.cpp:195
+#: ../src/core/undo/UndoRedoHandler.cpp:189
 msgid "Redo"
 msgstr "Ripeti"
 
@@ -1370,7 +1370,7 @@ msgid "Copy"
 msgstr "Copia"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:352
-#: ../src/core/undo/AddUndoAction.cpp:66
+#: ../src/core/undo/AddUndoAction.cpp:72
 msgid "Paste"
 msgstr "Incolla"
 
@@ -1379,7 +1379,7 @@ msgid "Search"
 msgstr "Cerca"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:356
-#: ../src/core/undo/DeleteUndoAction.cpp:66
+#: ../src/core/undo/DeleteUndoAction.cpp:74
 msgid "Delete"
 msgstr "Cancella"
 
@@ -1743,38 +1743,38 @@ msgstr "Nessuna pagina da esportare!"
 msgid "Failed to initialize PDF Cairo surface"
 msgstr "Impossibile inizializzare la superficie Cairo PDF"
 
-#: ../src/core/undo/AddUndoAction.cpp:64
-#: ../src/core/undo/DeleteUndoAction.cpp:63
-#: ../src/core/undo/EraseUndoAction.cpp:65
+#: ../src/core/undo/AddUndoAction.cpp:70
+#: ../src/core/undo/DeleteUndoAction.cpp:71
+#: ../src/core/undo/EraseUndoAction.cpp:64
 msgid "Erase stroke"
 msgstr "Cancella tratto"
 
-#: ../src/core/undo/AddUndoAction.cpp:74
-#: ../src/core/undo/DeleteUndoAction.cpp:74
+#: ../src/core/undo/AddUndoAction.cpp:80
+#: ../src/core/undo/DeleteUndoAction.cpp:82
 msgid "elements"
 msgstr "elementi"
 
-#: ../src/core/undo/AddUndoAction.cpp:82
-#: ../src/core/undo/DeleteUndoAction.cpp:82
+#: ../src/core/undo/AddUndoAction.cpp:88
+#: ../src/core/undo/DeleteUndoAction.cpp:90
 msgid "stroke"
 msgstr "tratto"
 
-#: ../src/core/undo/AddUndoAction.cpp:85
-#: ../src/core/undo/DeleteUndoAction.cpp:85
+#: ../src/core/undo/AddUndoAction.cpp:91
+#: ../src/core/undo/DeleteUndoAction.cpp:93
 msgid "image"
 msgstr "immagine"
 
-#: ../src/core/undo/AddUndoAction.cpp:88
-#: ../src/core/undo/DeleteUndoAction.cpp:88
+#: ../src/core/undo/AddUndoAction.cpp:94
+#: ../src/core/undo/DeleteUndoAction.cpp:96
 msgid "latex"
 msgstr "LaTeX"
 
-#: ../src/core/undo/AddUndoAction.cpp:91
-#: ../src/core/undo/DeleteUndoAction.cpp:91
+#: ../src/core/undo/AddUndoAction.cpp:97
+#: ../src/core/undo/DeleteUndoAction.cpp:99
 msgid "text"
 msgstr "testo"
 
-#: ../src/core/undo/ColorUndoAction.cpp:90
+#: ../src/core/undo/ColorUndoAction.cpp:97
 msgid "Change color"
 msgstr "Cambia colore"
 
@@ -1782,19 +1782,19 @@ msgstr "Cambia colore"
 msgid "Emergency saved document"
 msgstr "Documento da salvataggio d'emergenza"
 
-#: ../src/core/undo/FillUndoAction.cpp:81
+#: ../src/core/undo/FillUndoAction.cpp:88
 msgid "Change stroke fill"
 msgstr "Cambia riempimento tratto"
 
-#: ../src/core/undo/FontUndoAction.cpp:110
+#: ../src/core/undo/FontUndoAction.cpp:118
 msgid "Change font"
 msgstr "Cambia font"
 
-#: ../src/core/undo/InsertDeletePageUndoAction.cpp:96
+#: ../src/core/undo/InsertDeletePageUndoAction.cpp:86
 msgid "Page inserted"
 msgstr "Pagina inserita"
 
-#: ../src/core/undo/InsertDeletePageUndoAction.cpp:100
+#: ../src/core/undo/InsertDeletePageUndoAction.cpp:90
 msgid "Page deleted"
 msgstr "Pagina eliminata"
 
@@ -1814,7 +1814,7 @@ msgstr "Scrivi testo"
 msgid "Insert latex"
 msgstr "Inserisci latex"
 
-#: ../src/core/undo/InsertUndoAction.cpp:64
+#: ../src/core/undo/InsertUndoAction.cpp:70
 msgid "Insert elements"
 msgstr "Inserisci elementi"
 
@@ -1822,19 +1822,19 @@ msgstr "Inserisci elementi"
 msgid "Rename layer"
 msgstr "Rinomina livello"
 
-#: ../src/core/undo/LineStyleUndoAction.cpp:78
+#: ../src/core/undo/LineStyleUndoAction.cpp:86
 msgid "Change line style"
 msgstr "Cambia stile linea"
 
-#: ../src/core/undo/MergeLayerDownUndoAction.cpp:39
+#: ../src/core/undo/MergeLayerDownUndoAction.cpp:40
 msgid "Merge layer down"
 msgstr "Unisci al livello sottostante"
 
 #: ../src/core/undo/MissingPdfUndoAction.cpp:66
 msgid "Replace missing PDF"
-msgstr ""
+msgstr "Sostituisci il PDF mancante"
 
-#: ../src/core/undo/MoveLayerUndoAction.cpp:26
+#: ../src/core/undo/MoveLayerUndoAction.cpp:28
 msgid "Move layer"
 msgstr "Muovi livello"
 
@@ -1842,7 +1842,7 @@ msgstr "Muovi livello"
 msgid "Move"
 msgstr "Muovi"
 
-#: ../src/core/undo/PageBackgroundChangedUndoAction.cpp:85
+#: ../src/core/undo/PageBackgroundChangedUndoAction.cpp:97
 msgid "Page background changed"
 msgstr "Sfondo Pagina modificato"
 
@@ -1850,23 +1850,23 @@ msgstr "Sfondo Pagina modificato"
 msgid "Delete layer"
 msgstr "Cancella livello"
 
-#: ../src/core/undo/RotateUndoAction.cpp:56
+#: ../src/core/undo/RotateUndoAction.cpp:58
 msgid "Rotation"
 msgstr "Rotazione"
 
-#: ../src/core/undo/ScaleUndoAction.cpp:60
+#: ../src/core/undo/ScaleUndoAction.cpp:62
 msgid "Scale"
 msgstr "Scala"
 
-#: ../src/core/undo/SizeUndoAction.cpp:108
+#: ../src/core/undo/SizeUndoAction.cpp:118
 msgid "Change stroke width"
 msgstr "Cambia spessore tratto"
 
-#: ../src/core/undo/SwapUndoAction.cpp:68
+#: ../src/core/undo/SwapUndoAction.cpp:67
 msgid "Move page upwards"
 msgstr "Muovi pagina su"
 
-#: ../src/core/undo/SwapUndoAction.cpp:68
+#: ../src/core/undo/SwapUndoAction.cpp:67
 msgid "Move page downwards"
 msgstr "Muovi pagina giù"
 
@@ -1874,23 +1874,23 @@ msgstr "Muovi pagina giù"
 msgid "Edit text"
 msgstr "Modifica testo"
 
-#: ../src/core/undo/UndoRedoHandler.cpp:115
+#: ../src/core/undo/UndoRedoHandler.cpp:112
 msgid "Could not undo \"{1}\"\n"
 "Something went wrong… Please write a bug report…"
 msgstr "Impossibile annullare \"{1}\"\n"
 "Qualcosa è andato storto... Per favore inviaci un bug report…"
 
-#: ../src/core/undo/UndoRedoHandler.cpp:144
+#: ../src/core/undo/UndoRedoHandler.cpp:138
 msgid "Could not redo \"{1}\"\n"
 "Something went wrong… Please write a bug report…"
 msgstr "Impossibile ripetere \"{1}\"\n"
 "Qualcosa è andato storto... Per favore inviaci un bug report…"
 
-#: ../src/core/undo/UndoRedoHandler.cpp:178
+#: ../src/core/undo/UndoRedoHandler.cpp:172
 msgid "Undo: "
 msgstr "Annulla: "
 
-#: ../src/core/undo/UndoRedoHandler.cpp:190
+#: ../src/core/undo/UndoRedoHandler.cpp:184
 msgid "Redo: "
 msgstr "Ripeti: "
 
