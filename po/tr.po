@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-17 21:38+0000\n"
-"PO-Revision-Date: 2024-02-17 21:50\n"
+"POT-Creation-Date: 2024-02-24 17:09+0000\n"
+"PO-Revision-Date: 2024-02-24 17:10\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -95,7 +95,7 @@ msgstr "Başka bir PDF seç"
 msgid "Remove PDF Background"
 msgstr "PDF Arka Planını Kaldır"
 
-#: ../src/core/control/Control.cpp:1506 ../src/core/control/Control.cpp:1927
+#: ../src/core/control/Control.cpp:1506 ../src/core/control/Control.cpp:1923
 #: ../src/core/control/XournalMain.cpp:200
 #: ../src/core/gui/sidebar/Sidebar.cpp:87
 msgid "Cancel"
@@ -121,7 +121,7 @@ msgid "Save File"
 msgstr "Dosyayı Kaydet"
 
 #: ../src/core/control/Control.cpp:1709
-#: ../src/core/control/jobs/BaseExportJob.cpp:24
+#: ../src/core/control/jobs/BaseExportJob.cpp:55
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:16
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:17
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
@@ -133,42 +133,42 @@ msgstr "İ_ptal"
 msgid "_Save"
 msgstr "_Kaydet"
 
-#: ../src/core/control/Control.cpp:1715
+#: ../src/core/control/Control.cpp:1713
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:63
 msgid "Xournal++ files"
 msgstr "Xournal++ dosyaları"
 
-#: ../src/core/control/Control.cpp:1762
+#: ../src/core/control/Control.cpp:1758
 msgid "Select font"
 msgstr "Yazı tipi seç"
 
-#: ../src/core/control/Control.cpp:1777
+#: ../src/core/control/Control.cpp:1773
 #: ../src/core/gui/toolbarMenubar/ColorSelectorToolItem.cpp:59
 msgid "Select color"
 msgstr "Renk seç"
 
-#: ../src/core/control/Control.cpp:1799
+#: ../src/core/control/Control.cpp:1795
 msgid "Unsaved Document"
 msgstr "Kaydedilmemiş Belge"
 
-#: ../src/core/control/Control.cpp:1918
+#: ../src/core/control/Control.cpp:1914
 msgid "Document file was removed."
 msgstr "Belge dosyası kaldırıldı."
 
-#: ../src/core/control/Control.cpp:1918
+#: ../src/core/control/Control.cpp:1914
 msgid "This document is not saved yet."
 msgstr "Bu belge henüz kaydedilmemiş."
 
-#: ../src/core/control/Control.cpp:1919
+#: ../src/core/control/Control.cpp:1915
 msgid "Save As..."
 msgstr "Farklı kaydet..."
 
-#: ../src/core/control/Control.cpp:1919 ../src/core/control/jobs/SaveJob.cpp:24
+#: ../src/core/control/Control.cpp:1915 ../src/core/control/jobs/SaveJob.cpp:24
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:337
 msgid "Save"
 msgstr "Kaydet"
 
-#: ../src/core/control/Control.cpp:1924
+#: ../src/core/control/Control.cpp:1920
 msgid "Discard"
 msgstr "Gözden Çıkar"
 
@@ -495,57 +495,57 @@ msgstr "{1} 'e otomatik kaydediliyor"
 msgid "Could not rename autosave file from \"{1}\" to \"{2}\": {3}"
 msgstr "Otomatik kaydetme dosyası \"{1}\" yerine \"{2}\" olarak yeniden adlandırılamadı: {3}"
 
-#: ../src/core/control/jobs/BaseExportJob.cpp:23
-msgid "Export PDF"
-msgstr "PDF olarak dışa aktar"
-
-#: ../src/core/control/jobs/BaseExportJob.cpp:24
-msgid "_Export"
-msgstr "_Dışa Aktar"
-
-#: ../src/core/control/jobs/BaseExportJob.cpp:46
+#: ../src/core/control/jobs/BaseExportJob.cpp:39
 msgid "Do not overwrite the background PDF! This will cause errors!"
 msgstr "Arka plan PDF'sinin üzerine yazmayın! Bu hatalara neden olur!"
 
-#: ../src/core/control/jobs/BaseExportJob.cpp:52
+#: ../src/core/control/jobs/BaseExportJob.cpp:45
 msgid "The check for overwriting the background failed with:\n"
 msgstr "Arka plan üzerine yazma kontrolü şu şekilde başarısız oldu:\n"
 
-#: ../src/core/control/jobs/BaseExportJob.cpp:53
+#: ../src/core/control/jobs/BaseExportJob.cpp:46
 msgid "\n"
 " Do you want to continue?"
 msgstr "\n"
 "Devam etmek istiyor musunuz?"
 
-#: ../src/core/control/jobs/BaseExportJob.cpp:108
+#: ../src/core/control/jobs/BaseExportJob.cpp:54
+msgid "Export"
+msgstr "Dışa aktar"
+
+#: ../src/core/control/jobs/BaseExportJob.cpp:55
+msgid "_Export"
+msgstr "_Dışa Aktar"
+
+#: ../src/core/control/jobs/BaseExportJob.cpp:140
 msgid "Failed to resolve path with the following error:\n"
 "{1}"
 msgstr "Dosya yolu açılırken aşağıdaki hatayla karşılaşıldı:\n"
 "{1}"
 
-#: ../src/core/control/jobs/CustomExportJob.cpp:26
+#: ../src/core/control/jobs/CustomExportJob.cpp:27
 msgid "Custom Export"
 msgstr "Özel Dışa Aktarma"
 
-#: ../src/core/control/jobs/CustomExportJob.cpp:28
-#: ../src/core/control/jobs/PdfExportJob.cpp:19
+#: ../src/core/control/jobs/CustomExportJob.cpp:29
+#: ../src/core/control/jobs/PdfExportJob.cpp:20
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:48
 msgid "PDF files"
 msgstr "PDF dosyaları"
 
-#: ../src/core/control/jobs/CustomExportJob.cpp:29
+#: ../src/core/control/jobs/CustomExportJob.cpp:30
 msgid "PNG graphics"
 msgstr "PNG grafikleri"
 
-#: ../src/core/control/jobs/CustomExportJob.cpp:30
+#: ../src/core/control/jobs/CustomExportJob.cpp:31
 msgid "SVG graphics"
 msgstr "SVG grafikleri"
 
-#: ../src/core/control/jobs/CustomExportJob.cpp:31
+#: ../src/core/control/jobs/CustomExportJob.cpp:32
 msgid "Xournal (Compatibility)"
 msgstr "Xournal (Uyumluluk)"
 
-#: ../src/core/control/jobs/CustomExportJob.cpp:131
+#: ../src/core/control/jobs/CustomExportJob.cpp:137
 #: ../src/core/control/jobs/SaveJob.cpp:130
 msgid "Save file error: {1}"
 msgstr "Dosya kaydetme hatası: {1}"
@@ -1070,7 +1070,7 @@ msgstr "Koordinat Sistemi Çiz"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:141
 #: ../src/core/gui/toolbarMenubar/DrawingTypeComboToolButton.cpp:42
-#: ../src/core/undo/RecognizerUndoAction.cpp:55
+#: ../src/core/undo/RecognizerUndoAction.cpp:61
 msgid "Stroke recognizer"
 msgstr "Kontur tanıyıcı"
 
@@ -1349,12 +1349,12 @@ msgid "Print"
 msgstr "Yazdır"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:347
-#: ../src/core/undo/UndoRedoHandler.cpp:183
+#: ../src/core/undo/UndoRedoHandler.cpp:177
 msgid "Undo"
 msgstr "Geri al"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:348
-#: ../src/core/undo/UndoRedoHandler.cpp:195
+#: ../src/core/undo/UndoRedoHandler.cpp:189
 msgid "Redo"
 msgstr "Yinele"
 
@@ -1369,7 +1369,7 @@ msgid "Copy"
 msgstr "Kopyala"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:352
-#: ../src/core/undo/AddUndoAction.cpp:66
+#: ../src/core/undo/AddUndoAction.cpp:72
 msgid "Paste"
 msgstr "Yapıştır"
 
@@ -1378,7 +1378,7 @@ msgid "Search"
 msgstr "Ara"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:356
-#: ../src/core/undo/DeleteUndoAction.cpp:66
+#: ../src/core/undo/DeleteUndoAction.cpp:74
 msgid "Delete"
 msgstr "Sil"
 
@@ -1742,38 +1742,38 @@ msgstr "Dışarıya aktarılacak sayfalar bulunamadı!"
 msgid "Failed to initialize PDF Cairo surface"
 msgstr "PDF Cairo eklentisi başlatılırken hata meydana geldi"
 
-#: ../src/core/undo/AddUndoAction.cpp:64
-#: ../src/core/undo/DeleteUndoAction.cpp:63
-#: ../src/core/undo/EraseUndoAction.cpp:65
+#: ../src/core/undo/AddUndoAction.cpp:70
+#: ../src/core/undo/DeleteUndoAction.cpp:71
+#: ../src/core/undo/EraseUndoAction.cpp:64
 msgid "Erase stroke"
 msgstr "Kontur sil"
 
-#: ../src/core/undo/AddUndoAction.cpp:74
-#: ../src/core/undo/DeleteUndoAction.cpp:74
+#: ../src/core/undo/AddUndoAction.cpp:80
+#: ../src/core/undo/DeleteUndoAction.cpp:82
 msgid "elements"
 msgstr "öğeler"
 
-#: ../src/core/undo/AddUndoAction.cpp:82
-#: ../src/core/undo/DeleteUndoAction.cpp:82
+#: ../src/core/undo/AddUndoAction.cpp:88
+#: ../src/core/undo/DeleteUndoAction.cpp:90
 msgid "stroke"
 msgstr "vuruş"
 
-#: ../src/core/undo/AddUndoAction.cpp:85
-#: ../src/core/undo/DeleteUndoAction.cpp:85
+#: ../src/core/undo/AddUndoAction.cpp:91
+#: ../src/core/undo/DeleteUndoAction.cpp:93
 msgid "image"
 msgstr "resim"
 
-#: ../src/core/undo/AddUndoAction.cpp:88
-#: ../src/core/undo/DeleteUndoAction.cpp:88
+#: ../src/core/undo/AddUndoAction.cpp:94
+#: ../src/core/undo/DeleteUndoAction.cpp:96
 msgid "latex"
 msgstr "latex"
 
-#: ../src/core/undo/AddUndoAction.cpp:91
-#: ../src/core/undo/DeleteUndoAction.cpp:91
+#: ../src/core/undo/AddUndoAction.cpp:97
+#: ../src/core/undo/DeleteUndoAction.cpp:99
 msgid "text"
 msgstr "metin"
 
-#: ../src/core/undo/ColorUndoAction.cpp:90
+#: ../src/core/undo/ColorUndoAction.cpp:97
 msgid "Change color"
 msgstr "Rengi değiştir"
 
@@ -1781,19 +1781,19 @@ msgstr "Rengi değiştir"
 msgid "Emergency saved document"
 msgstr "Acil durum kaydedilmiş belge"
 
-#: ../src/core/undo/FillUndoAction.cpp:81
+#: ../src/core/undo/FillUndoAction.cpp:88
 msgid "Change stroke fill"
 msgstr "Kontur dolgusunu değiştir"
 
-#: ../src/core/undo/FontUndoAction.cpp:110
+#: ../src/core/undo/FontUndoAction.cpp:118
 msgid "Change font"
 msgstr "Yazı tipini değiştir"
 
-#: ../src/core/undo/InsertDeletePageUndoAction.cpp:96
+#: ../src/core/undo/InsertDeletePageUndoAction.cpp:86
 msgid "Page inserted"
 msgstr "Sayfa eklendi"
 
-#: ../src/core/undo/InsertDeletePageUndoAction.cpp:100
+#: ../src/core/undo/InsertDeletePageUndoAction.cpp:90
 msgid "Page deleted"
 msgstr "Sayfa silindi"
 
@@ -1813,7 +1813,7 @@ msgstr "Metin yaz"
 msgid "Insert latex"
 msgstr "Lateks ekle"
 
-#: ../src/core/undo/InsertUndoAction.cpp:64
+#: ../src/core/undo/InsertUndoAction.cpp:70
 msgid "Insert elements"
 msgstr "Element ekle"
 
@@ -1821,11 +1821,11 @@ msgstr "Element ekle"
 msgid "Rename layer"
 msgstr "Katmanı yeniden adlandır"
 
-#: ../src/core/undo/LineStyleUndoAction.cpp:78
+#: ../src/core/undo/LineStyleUndoAction.cpp:86
 msgid "Change line style"
 msgstr "Çizgi biçimini değiştir"
 
-#: ../src/core/undo/MergeLayerDownUndoAction.cpp:39
+#: ../src/core/undo/MergeLayerDownUndoAction.cpp:40
 msgid "Merge layer down"
 msgstr "Altındaki Katmanla Birleştir"
 
@@ -1833,7 +1833,7 @@ msgstr "Altındaki Katmanla Birleştir"
 msgid "Replace missing PDF"
 msgstr ""
 
-#: ../src/core/undo/MoveLayerUndoAction.cpp:26
+#: ../src/core/undo/MoveLayerUndoAction.cpp:28
 msgid "Move layer"
 msgstr "Katmanı taşı"
 
@@ -1841,7 +1841,7 @@ msgstr "Katmanı taşı"
 msgid "Move"
 msgstr "Taşı"
 
-#: ../src/core/undo/PageBackgroundChangedUndoAction.cpp:85
+#: ../src/core/undo/PageBackgroundChangedUndoAction.cpp:97
 msgid "Page background changed"
 msgstr "Sayfa arka planı değişti"
 
@@ -1849,23 +1849,23 @@ msgstr "Sayfa arka planı değişti"
 msgid "Delete layer"
 msgstr "Katmanı sil"
 
-#: ../src/core/undo/RotateUndoAction.cpp:56
+#: ../src/core/undo/RotateUndoAction.cpp:58
 msgid "Rotation"
 msgstr "Döndür"
 
-#: ../src/core/undo/ScaleUndoAction.cpp:60
+#: ../src/core/undo/ScaleUndoAction.cpp:62
 msgid "Scale"
 msgstr "Ölçek"
 
-#: ../src/core/undo/SizeUndoAction.cpp:108
+#: ../src/core/undo/SizeUndoAction.cpp:118
 msgid "Change stroke width"
 msgstr "Kontur genişliğini değiştir"
 
-#: ../src/core/undo/SwapUndoAction.cpp:68
+#: ../src/core/undo/SwapUndoAction.cpp:67
 msgid "Move page upwards"
 msgstr "Sayfayı yukarıya doğru taşı"
 
-#: ../src/core/undo/SwapUndoAction.cpp:68
+#: ../src/core/undo/SwapUndoAction.cpp:67
 msgid "Move page downwards"
 msgstr "Sayfayı aşağıya doğru taşı"
 
@@ -1873,23 +1873,23 @@ msgstr "Sayfayı aşağıya doğru taşı"
 msgid "Edit text"
 msgstr "Metni düzenle"
 
-#: ../src/core/undo/UndoRedoHandler.cpp:115
+#: ../src/core/undo/UndoRedoHandler.cpp:112
 msgid "Could not undo \"{1}\"\n"
 "Something went wrong… Please write a bug report…"
 msgstr "\"{1}\" geri alınamadı\n"
 "Bir şeyler ters gitti… Lütfen hata raporu yazın…"
 
-#: ../src/core/undo/UndoRedoHandler.cpp:144
+#: ../src/core/undo/UndoRedoHandler.cpp:138
 msgid "Could not redo \"{1}\"\n"
 "Something went wrong… Please write a bug report…"
 msgstr "\"{1}\" yeniden yapılamadı\n"
 "Bir şeyler ters gitti… Lütfen hata raporu yazın…"
 
-#: ../src/core/undo/UndoRedoHandler.cpp:178
+#: ../src/core/undo/UndoRedoHandler.cpp:172
 msgid "Undo: "
 msgstr "Geri al: "
 
-#: ../src/core/undo/UndoRedoHandler.cpp:190
+#: ../src/core/undo/UndoRedoHandler.cpp:184
 msgid "Redo: "
 msgstr "Yinele: "
 
@@ -1949,15 +1949,15 @@ msgstr "Klasör oluşturulamadı: {1}\n"
 msgid "Error {1} executing system command: {2}"
 msgstr "Sistem komutu yürütülürken {1} hatası: {2}"
 
-#: ../src/util/XojMsgBox.cpp:168
+#: ../src/util/XojMsgBox.cpp:174 ../src/util/XojMsgBox.cpp:190
 msgid "Select another name"
 msgstr "Başka bir ad seçin"
 
-#: ../src/util/XojMsgBox.cpp:169
+#: ../src/util/XojMsgBox.cpp:175 ../src/util/XojMsgBox.cpp:191
 msgid "Replace"
 msgstr "Değiştir"
 
-#: ../src/util/XojMsgBox.cpp:187
+#: ../src/util/XojMsgBox.cpp:219
 msgid "There was an error displaying help: {1}"
 msgstr "Yardım görüntülenirken bir hata oluştu: {1}"
 
@@ -2062,10 +2062,6 @@ msgstr "karar yok"
 #: ../ui/exportSettings.glade:59
 msgid "All"
 msgstr "Tümü"
-
-#: ../ui/exportSettings.glade:65
-msgid "Export"
-msgstr "Dışa aktar"
 
 #: ../ui/exportSettings.glade:91
 msgid "<b>Document export settings</b>\n"
