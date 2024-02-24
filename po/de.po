@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-17 21:38+0000\n"
-"PO-Revision-Date: 2024-02-20 17:52\n"
+"POT-Creation-Date: 2024-02-24 17:09+0000\n"
+"PO-Revision-Date: 2024-02-24 17:09\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -95,7 +95,7 @@ msgstr "Andere PDF-Datei auswählen"
 msgid "Remove PDF Background"
 msgstr "PDF-Hintergrund entfernen"
 
-#: ../src/core/control/Control.cpp:1506 ../src/core/control/Control.cpp:1927
+#: ../src/core/control/Control.cpp:1506 ../src/core/control/Control.cpp:1923
 #: ../src/core/control/XournalMain.cpp:200
 #: ../src/core/gui/sidebar/Sidebar.cpp:87
 msgid "Cancel"
@@ -121,7 +121,7 @@ msgid "Save File"
 msgstr "Speichere Datei"
 
 #: ../src/core/control/Control.cpp:1709
-#: ../src/core/control/jobs/BaseExportJob.cpp:24
+#: ../src/core/control/jobs/BaseExportJob.cpp:55
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:16
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:17
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
@@ -133,42 +133,42 @@ msgstr "_Abbrechen"
 msgid "_Save"
 msgstr "_Speichern"
 
-#: ../src/core/control/Control.cpp:1715
+#: ../src/core/control/Control.cpp:1713
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:63
 msgid "Xournal++ files"
 msgstr "Xournal++ Dateien"
 
-#: ../src/core/control/Control.cpp:1762
+#: ../src/core/control/Control.cpp:1758
 msgid "Select font"
 msgstr "Schriftart auswählen"
 
-#: ../src/core/control/Control.cpp:1777
+#: ../src/core/control/Control.cpp:1773
 #: ../src/core/gui/toolbarMenubar/ColorSelectorToolItem.cpp:59
 msgid "Select color"
 msgstr "Farbe auswählen"
 
-#: ../src/core/control/Control.cpp:1799
+#: ../src/core/control/Control.cpp:1795
 msgid "Unsaved Document"
 msgstr "Ungespeichertes Dokument"
 
-#: ../src/core/control/Control.cpp:1918
+#: ../src/core/control/Control.cpp:1914
 msgid "Document file was removed."
 msgstr "Datei des Dokuments wurde entfernt."
 
-#: ../src/core/control/Control.cpp:1918
+#: ../src/core/control/Control.cpp:1914
 msgid "This document is not saved yet."
 msgstr "Dieses Dokument wurde noch nicht gespeichert."
 
-#: ../src/core/control/Control.cpp:1919
+#: ../src/core/control/Control.cpp:1915
 msgid "Save As..."
 msgstr "Speichern unter..."
 
-#: ../src/core/control/Control.cpp:1919 ../src/core/control/jobs/SaveJob.cpp:24
+#: ../src/core/control/Control.cpp:1915 ../src/core/control/jobs/SaveJob.cpp:24
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:337
 msgid "Save"
 msgstr "Speichern"
 
-#: ../src/core/control/Control.cpp:1924
+#: ../src/core/control/Control.cpp:1920
 msgid "Discard"
 msgstr "Verwerfen"
 
@@ -496,57 +496,57 @@ msgstr "Autospeicherung nach {1}"
 msgid "Could not rename autosave file from \"{1}\" to \"{2}\": {3}"
 msgstr "Konnte Autospeicherung \"{1}\" nicht umbenennen zu \"{2}\": {3}"
 
-#: ../src/core/control/jobs/BaseExportJob.cpp:23
-msgid "Export PDF"
-msgstr "Exportieren als PDF"
-
-#: ../src/core/control/jobs/BaseExportJob.cpp:24
-msgid "_Export"
-msgstr "_Exportieren"
-
-#: ../src/core/control/jobs/BaseExportJob.cpp:46
+#: ../src/core/control/jobs/BaseExportJob.cpp:39
 msgid "Do not overwrite the background PDF! This will cause errors!"
 msgstr "Das Hintergrund PDF darf nicht überschrieben werden! Dies verursacht Fehler!"
 
-#: ../src/core/control/jobs/BaseExportJob.cpp:52
+#: ../src/core/control/jobs/BaseExportJob.cpp:45
 msgid "The check for overwriting the background failed with:\n"
 msgstr "Die Überprüfung des Überschreibens des Hintergrundes ist fehlgeschlagen:\n"
 
-#: ../src/core/control/jobs/BaseExportJob.cpp:53
+#: ../src/core/control/jobs/BaseExportJob.cpp:46
 msgid "\n"
 " Do you want to continue?"
 msgstr "\n"
 "Möchten Sie fortfahren?"
 
-#: ../src/core/control/jobs/BaseExportJob.cpp:108
+#: ../src/core/control/jobs/BaseExportJob.cpp:54
+msgid "Export"
+msgstr "Exportieren"
+
+#: ../src/core/control/jobs/BaseExportJob.cpp:55
+msgid "_Export"
+msgstr "_Exportieren"
+
+#: ../src/core/control/jobs/BaseExportJob.cpp:140
 msgid "Failed to resolve path with the following error:\n"
 "{1}"
 msgstr "Fehler beim Auflösen des Pfades mit folgendem Fehler:\n"
 "{1}"
 
-#: ../src/core/control/jobs/CustomExportJob.cpp:26
+#: ../src/core/control/jobs/CustomExportJob.cpp:27
 msgid "Custom Export"
 msgstr "Benutzerdefinierter Export"
 
-#: ../src/core/control/jobs/CustomExportJob.cpp:28
-#: ../src/core/control/jobs/PdfExportJob.cpp:19
+#: ../src/core/control/jobs/CustomExportJob.cpp:29
+#: ../src/core/control/jobs/PdfExportJob.cpp:20
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:48
 msgid "PDF files"
 msgstr "PDF Dateien"
 
-#: ../src/core/control/jobs/CustomExportJob.cpp:29
+#: ../src/core/control/jobs/CustomExportJob.cpp:30
 msgid "PNG graphics"
 msgstr "PNG Bild"
 
-#: ../src/core/control/jobs/CustomExportJob.cpp:30
+#: ../src/core/control/jobs/CustomExportJob.cpp:31
 msgid "SVG graphics"
 msgstr "SVG Bild"
 
-#: ../src/core/control/jobs/CustomExportJob.cpp:31
+#: ../src/core/control/jobs/CustomExportJob.cpp:32
 msgid "Xournal (Compatibility)"
 msgstr "Xournal (Kompatibilitätsmodus)"
 
-#: ../src/core/control/jobs/CustomExportJob.cpp:131
+#: ../src/core/control/jobs/CustomExportJob.cpp:137
 #: ../src/core/control/jobs/SaveJob.cpp:130
 msgid "Save file error: {1}"
 msgstr "Fehler beim Speichern der Datei: {1}"
@@ -1071,7 +1071,7 @@ msgstr "Koordinatensystem zeichnen"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:141
 #: ../src/core/gui/toolbarMenubar/DrawingTypeComboToolButton.cpp:42
-#: ../src/core/undo/RecognizerUndoAction.cpp:55
+#: ../src/core/undo/RecognizerUndoAction.cpp:61
 msgid "Stroke recognizer"
 msgstr "Figurenerkennung"
 
@@ -1350,12 +1350,12 @@ msgid "Print"
 msgstr "Drucken"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:347
-#: ../src/core/undo/UndoRedoHandler.cpp:183
+#: ../src/core/undo/UndoRedoHandler.cpp:177
 msgid "Undo"
 msgstr "Rückgängig"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:348
-#: ../src/core/undo/UndoRedoHandler.cpp:195
+#: ../src/core/undo/UndoRedoHandler.cpp:189
 msgid "Redo"
 msgstr "Wiederherstellen"
 
@@ -1370,7 +1370,7 @@ msgid "Copy"
 msgstr "Kopieren"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:352
-#: ../src/core/undo/AddUndoAction.cpp:66
+#: ../src/core/undo/AddUndoAction.cpp:72
 msgid "Paste"
 msgstr "Einfügen"
 
@@ -1379,7 +1379,7 @@ msgid "Search"
 msgstr "Suchen"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:356
-#: ../src/core/undo/DeleteUndoAction.cpp:66
+#: ../src/core/undo/DeleteUndoAction.cpp:74
 msgid "Delete"
 msgstr "Löschen"
 
@@ -1743,38 +1743,38 @@ msgstr "Keine Seiten zu exportieren!"
 msgid "Failed to initialize PDF Cairo surface"
 msgstr "Fehler beim Initialisieren der PDF-Kairo-Oberfläche"
 
-#: ../src/core/undo/AddUndoAction.cpp:64
-#: ../src/core/undo/DeleteUndoAction.cpp:63
-#: ../src/core/undo/EraseUndoAction.cpp:65
+#: ../src/core/undo/AddUndoAction.cpp:70
+#: ../src/core/undo/DeleteUndoAction.cpp:71
+#: ../src/core/undo/EraseUndoAction.cpp:64
 msgid "Erase stroke"
 msgstr "Linie löschen"
 
-#: ../src/core/undo/AddUndoAction.cpp:74
-#: ../src/core/undo/DeleteUndoAction.cpp:74
+#: ../src/core/undo/AddUndoAction.cpp:80
+#: ../src/core/undo/DeleteUndoAction.cpp:82
 msgid "elements"
 msgstr "Elemente"
 
-#: ../src/core/undo/AddUndoAction.cpp:82
-#: ../src/core/undo/DeleteUndoAction.cpp:82
+#: ../src/core/undo/AddUndoAction.cpp:88
+#: ../src/core/undo/DeleteUndoAction.cpp:90
 msgid "stroke"
 msgstr "Linie"
 
-#: ../src/core/undo/AddUndoAction.cpp:85
-#: ../src/core/undo/DeleteUndoAction.cpp:85
+#: ../src/core/undo/AddUndoAction.cpp:91
+#: ../src/core/undo/DeleteUndoAction.cpp:93
 msgid "image"
 msgstr "Bild"
 
-#: ../src/core/undo/AddUndoAction.cpp:88
-#: ../src/core/undo/DeleteUndoAction.cpp:88
+#: ../src/core/undo/AddUndoAction.cpp:94
+#: ../src/core/undo/DeleteUndoAction.cpp:96
 msgid "latex"
 msgstr "LaTeX"
 
-#: ../src/core/undo/AddUndoAction.cpp:91
-#: ../src/core/undo/DeleteUndoAction.cpp:91
+#: ../src/core/undo/AddUndoAction.cpp:97
+#: ../src/core/undo/DeleteUndoAction.cpp:99
 msgid "text"
 msgstr "Text"
 
-#: ../src/core/undo/ColorUndoAction.cpp:90
+#: ../src/core/undo/ColorUndoAction.cpp:97
 msgid "Change color"
 msgstr "Farbe ändern"
 
@@ -1782,19 +1782,19 @@ msgstr "Farbe ändern"
 msgid "Emergency saved document"
 msgstr "Im Notfall gespeichertes Dokument"
 
-#: ../src/core/undo/FillUndoAction.cpp:81
+#: ../src/core/undo/FillUndoAction.cpp:88
 msgid "Change stroke fill"
 msgstr "Füllung ändern"
 
-#: ../src/core/undo/FontUndoAction.cpp:110
+#: ../src/core/undo/FontUndoAction.cpp:118
 msgid "Change font"
 msgstr "Schriftart ändern"
 
-#: ../src/core/undo/InsertDeletePageUndoAction.cpp:96
+#: ../src/core/undo/InsertDeletePageUndoAction.cpp:86
 msgid "Page inserted"
 msgstr "Seite hinzugefügt"
 
-#: ../src/core/undo/InsertDeletePageUndoAction.cpp:100
+#: ../src/core/undo/InsertDeletePageUndoAction.cpp:90
 msgid "Page deleted"
 msgstr "Seite gelöscht"
 
@@ -1814,7 +1814,7 @@ msgstr "Text schreiben"
 msgid "Insert latex"
 msgstr "LaTeX einfügen"
 
-#: ../src/core/undo/InsertUndoAction.cpp:64
+#: ../src/core/undo/InsertUndoAction.cpp:70
 msgid "Insert elements"
 msgstr "Elemente einfügen"
 
@@ -1822,11 +1822,11 @@ msgstr "Elemente einfügen"
 msgid "Rename layer"
 msgstr "Ebene umbenennen"
 
-#: ../src/core/undo/LineStyleUndoAction.cpp:78
+#: ../src/core/undo/LineStyleUndoAction.cpp:86
 msgid "Change line style"
 msgstr "Linienstil ändern"
 
-#: ../src/core/undo/MergeLayerDownUndoAction.cpp:39
+#: ../src/core/undo/MergeLayerDownUndoAction.cpp:40
 msgid "Merge layer down"
 msgstr "Ebene nach unten zusammenführen"
 
@@ -1834,7 +1834,7 @@ msgstr "Ebene nach unten zusammenführen"
 msgid "Replace missing PDF"
 msgstr "Fehlende PDF ersetzen"
 
-#: ../src/core/undo/MoveLayerUndoAction.cpp:26
+#: ../src/core/undo/MoveLayerUndoAction.cpp:28
 msgid "Move layer"
 msgstr "Ebene verschieben"
 
@@ -1842,7 +1842,7 @@ msgstr "Ebene verschieben"
 msgid "Move"
 msgstr "Verschieben"
 
-#: ../src/core/undo/PageBackgroundChangedUndoAction.cpp:85
+#: ../src/core/undo/PageBackgroundChangedUndoAction.cpp:97
 msgid "Page background changed"
 msgstr "Seitenhintergrund geändert"
 
@@ -1850,23 +1850,23 @@ msgstr "Seitenhintergrund geändert"
 msgid "Delete layer"
 msgstr "Ebene löschen"
 
-#: ../src/core/undo/RotateUndoAction.cpp:56
+#: ../src/core/undo/RotateUndoAction.cpp:58
 msgid "Rotation"
 msgstr "Drehung"
 
-#: ../src/core/undo/ScaleUndoAction.cpp:60
+#: ../src/core/undo/ScaleUndoAction.cpp:62
 msgid "Scale"
 msgstr "Skalieren"
 
-#: ../src/core/undo/SizeUndoAction.cpp:108
+#: ../src/core/undo/SizeUndoAction.cpp:118
 msgid "Change stroke width"
 msgstr "Liniendicke ändern"
 
-#: ../src/core/undo/SwapUndoAction.cpp:68
+#: ../src/core/undo/SwapUndoAction.cpp:67
 msgid "Move page upwards"
 msgstr "Verschiebe Seite nach oben"
 
-#: ../src/core/undo/SwapUndoAction.cpp:68
+#: ../src/core/undo/SwapUndoAction.cpp:67
 msgid "Move page downwards"
 msgstr "Verschiebe Seite nach unten"
 
@@ -1874,23 +1874,23 @@ msgstr "Verschiebe Seite nach unten"
 msgid "Edit text"
 msgstr "Text bearbeiten"
 
-#: ../src/core/undo/UndoRedoHandler.cpp:115
+#: ../src/core/undo/UndoRedoHandler.cpp:112
 msgid "Could not undo \"{1}\"\n"
 "Something went wrong… Please write a bug report…"
 msgstr "Konnte \"{1}\" nicht rückgängig machen.\n"
 "Etwas ist schiefgelaufen... Bitte erstellen Sie einen Fehlerbericht…"
 
-#: ../src/core/undo/UndoRedoHandler.cpp:144
+#: ../src/core/undo/UndoRedoHandler.cpp:138
 msgid "Could not redo \"{1}\"\n"
 "Something went wrong… Please write a bug report…"
 msgstr "Konnte \"{1}\" nicht wiederherstellen.\n"
 "Etwas ist schiefgelaufen… Bitte erstellen Sie einen Fehlerbericht…"
 
-#: ../src/core/undo/UndoRedoHandler.cpp:178
+#: ../src/core/undo/UndoRedoHandler.cpp:172
 msgid "Undo: "
 msgstr "Rückgängig: "
 
-#: ../src/core/undo/UndoRedoHandler.cpp:190
+#: ../src/core/undo/UndoRedoHandler.cpp:184
 msgid "Redo: "
 msgstr "Wiederherstellen: "
 
@@ -1950,15 +1950,15 @@ msgstr "Ordner konnte nicht erstellt werden: {1}\n"
 msgid "Error {1} executing system command: {2}"
 msgstr "Fehler {1} bei der Ausführung des Systembefehls: {2}"
 
-#: ../src/util/XojMsgBox.cpp:168
+#: ../src/util/XojMsgBox.cpp:174 ../src/util/XojMsgBox.cpp:190
 msgid "Select another name"
 msgstr "Anderen Namen wählen"
 
-#: ../src/util/XojMsgBox.cpp:169
+#: ../src/util/XojMsgBox.cpp:175 ../src/util/XojMsgBox.cpp:191
 msgid "Replace"
 msgstr "Ersetzen"
 
-#: ../src/util/XojMsgBox.cpp:187
+#: ../src/util/XojMsgBox.cpp:219
 msgid "There was an error displaying help: {1}"
 msgstr "Es ist ein Fehler aufgetreten beim Anzeigen der Hilfe: {1}"
 
@@ -2063,10 +2063,6 @@ msgstr "Keine Lineatur"
 #: ../ui/exportSettings.glade:59
 msgid "All"
 msgstr "Alle"
-
-#: ../ui/exportSettings.glade:65
-msgid "Export"
-msgstr "Exportieren"
 
 #: ../ui/exportSettings.glade:91
 msgid "<b>Document export settings</b>\n"
