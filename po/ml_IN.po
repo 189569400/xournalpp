@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-17 21:38+0000\n"
-"PO-Revision-Date: 2024-02-17 21:51\n"
+"POT-Creation-Date: 2024-02-24 17:09+0000\n"
+"PO-Revision-Date: 2024-02-24 17:10\n"
 "Last-Translator: \n"
 "Language-Team: Malayalam\n"
 "Language: ml_IN\n"
@@ -92,7 +92,7 @@ msgstr "മറ്റൊരു പിഡിഎഫ് തിരഞ്ഞെടു�
 msgid "Remove PDF Background"
 msgstr "പിഡിഎഫ് പശ്ചാത്തലം നീക്കം ചെയ്യുക"
 
-#: ../src/core/control/Control.cpp:1506 ../src/core/control/Control.cpp:1927
+#: ../src/core/control/Control.cpp:1506 ../src/core/control/Control.cpp:1923
 #: ../src/core/control/XournalMain.cpp:200
 #: ../src/core/gui/sidebar/Sidebar.cpp:87
 msgid "Cancel"
@@ -118,7 +118,7 @@ msgid "Save File"
 msgstr "ഫയൽ സേവ്"
 
 #: ../src/core/control/Control.cpp:1709
-#: ../src/core/control/jobs/BaseExportJob.cpp:24
+#: ../src/core/control/jobs/BaseExportJob.cpp:55
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:16
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:17
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
@@ -130,42 +130,42 @@ msgstr "_ഉപേക്ഷിക്കുക"
 msgid "_Save"
 msgstr "_സേവ്"
 
-#: ../src/core/control/Control.cpp:1715
+#: ../src/core/control/Control.cpp:1713
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:63
 msgid "Xournal++ files"
 msgstr "Xournal++ ഫയലുകൾ"
 
-#: ../src/core/control/Control.cpp:1762
+#: ../src/core/control/Control.cpp:1758
 msgid "Select font"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1777
+#: ../src/core/control/Control.cpp:1773
 #: ../src/core/gui/toolbarMenubar/ColorSelectorToolItem.cpp:59
 msgid "Select color"
 msgstr "നിറം തിരഞ്ഞെടുക്കുക"
 
-#: ../src/core/control/Control.cpp:1799
+#: ../src/core/control/Control.cpp:1795
 msgid "Unsaved Document"
 msgstr "സേവ് ചെയ്യാത്ത ഡോക്യുമെന്റ്"
 
-#: ../src/core/control/Control.cpp:1918
+#: ../src/core/control/Control.cpp:1914
 msgid "Document file was removed."
 msgstr "ഡോക്യുമെന്റ് ഫയൽ നീക്കം ചെയ്യപ്പെട്ടു."
 
-#: ../src/core/control/Control.cpp:1918
+#: ../src/core/control/Control.cpp:1914
 msgid "This document is not saved yet."
 msgstr "ഈ ഡോക്യുമെന്റ് ഇത് വരെ സേവ് ചെയ്യപ്പെട്ടിട്ടില്ല."
 
-#: ../src/core/control/Control.cpp:1919
+#: ../src/core/control/Control.cpp:1915
 msgid "Save As..."
 msgstr "സേവ് തരം..."
 
-#: ../src/core/control/Control.cpp:1919 ../src/core/control/jobs/SaveJob.cpp:24
+#: ../src/core/control/Control.cpp:1915 ../src/core/control/jobs/SaveJob.cpp:24
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:337
 msgid "Save"
 msgstr "സേവ്"
 
-#: ../src/core/control/Control.cpp:1924
+#: ../src/core/control/Control.cpp:1920
 msgid "Discard"
 msgstr "ഒഴിവാക്കുക"
 
@@ -482,56 +482,56 @@ msgstr "{1}-ലേക്ക് ഓട്ടോസേവ് ചെയ്യുന
 msgid "Could not rename autosave file from \"{1}\" to \"{2}\": {3}"
 msgstr "ഓട്ടോസേവ് ഫയൽ നാമം \"{1}\"-ൽ നിന്നും \"{2}\"-ലേക്ക് തിരുത്താൻ സാധിച്ചില്ല: {3}"
 
-#: ../src/core/control/jobs/BaseExportJob.cpp:23
-msgid "Export PDF"
-msgstr "പിഡിഎഫ് എക്സ്പോർട്ട് ചെയ്യുക"
-
-#: ../src/core/control/jobs/BaseExportJob.cpp:24
-msgid "_Export"
-msgstr ""
-
-#: ../src/core/control/jobs/BaseExportJob.cpp:46
+#: ../src/core/control/jobs/BaseExportJob.cpp:39
 msgid "Do not overwrite the background PDF! This will cause errors!"
 msgstr "പിഡിഎഫ് പശ്ചാത്തലം തിരുത്തരുത്! അവ പിശകുകൾക്ക് കാരണമാകും!"
 
-#: ../src/core/control/jobs/BaseExportJob.cpp:52
+#: ../src/core/control/jobs/BaseExportJob.cpp:45
 msgid "The check for overwriting the background failed with:\n"
 msgstr "പശ്ചാത്തലം മാറ്റിയെഴുതുന്നതിനു വേണ്ടിയുള്ള പരിശോധനയിൽ ഇത് സഹിതം പരാജയപ്പെട്ടു:\n"
 
-#: ../src/core/control/jobs/BaseExportJob.cpp:53
+#: ../src/core/control/jobs/BaseExportJob.cpp:46
 msgid "\n"
 " Do you want to continue?"
 msgstr "\n"
 "നിങ്ങൾ തുടരാൻ ആഗ്രഹിക്കുന്നുവോ?"
 
-#: ../src/core/control/jobs/BaseExportJob.cpp:108
+#: ../src/core/control/jobs/BaseExportJob.cpp:54
+msgid "Export"
+msgstr "എക്സ്പോര്‍ട്ട്‌"
+
+#: ../src/core/control/jobs/BaseExportJob.cpp:55
+msgid "_Export"
+msgstr ""
+
+#: ../src/core/control/jobs/BaseExportJob.cpp:140
 msgid "Failed to resolve path with the following error:\n"
 "{1}"
 msgstr "പാത തിരിച്ചറിയുന്നതിൽ ഇനി പറയുന്ന പിശകോടെ പരാജയപ്പെട്ടു: {1}"
 
-#: ../src/core/control/jobs/CustomExportJob.cpp:26
+#: ../src/core/control/jobs/CustomExportJob.cpp:27
 msgid "Custom Export"
 msgstr "ഇഷ്ടാനുസൃതമായി എക്സ്പോർട്ട്"
 
-#: ../src/core/control/jobs/CustomExportJob.cpp:28
-#: ../src/core/control/jobs/PdfExportJob.cpp:19
+#: ../src/core/control/jobs/CustomExportJob.cpp:29
+#: ../src/core/control/jobs/PdfExportJob.cpp:20
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:48
 msgid "PDF files"
 msgstr "പിഡിഎഫ് ഫയലുകൾ"
 
-#: ../src/core/control/jobs/CustomExportJob.cpp:29
+#: ../src/core/control/jobs/CustomExportJob.cpp:30
 msgid "PNG graphics"
 msgstr "പിഎൻജി ഗ്രാഫിക്സ്"
 
-#: ../src/core/control/jobs/CustomExportJob.cpp:30
+#: ../src/core/control/jobs/CustomExportJob.cpp:31
 msgid "SVG graphics"
 msgstr "എസ് വി ജി (SVG) ഗ്രാഫിക്സ്"
 
-#: ../src/core/control/jobs/CustomExportJob.cpp:31
+#: ../src/core/control/jobs/CustomExportJob.cpp:32
 msgid "Xournal (Compatibility)"
 msgstr "Xournal (പൊരുത്തം)"
 
-#: ../src/core/control/jobs/CustomExportJob.cpp:131
+#: ../src/core/control/jobs/CustomExportJob.cpp:137
 #: ../src/core/control/jobs/SaveJob.cpp:130
 msgid "Save file error: {1}"
 msgstr "ഫയൽ സേവ് ചെയ്യുന്നതിനിടെ പിശക്: {1}"
@@ -1056,7 +1056,7 @@ msgstr "കോർഡിനേറ്റ് സിസ്റ്റം വരയ്�
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:141
 #: ../src/core/gui/toolbarMenubar/DrawingTypeComboToolButton.cpp:42
-#: ../src/core/undo/RecognizerUndoAction.cpp:55
+#: ../src/core/undo/RecognizerUndoAction.cpp:61
 msgid "Stroke recognizer"
 msgstr "സ്ട്രോക്ക് തിരിച്ചറിയുന്നത്"
 
@@ -1331,12 +1331,12 @@ msgid "Print"
 msgstr "പ്രിൻ്റ് ചെയ്യുക"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:347
-#: ../src/core/undo/UndoRedoHandler.cpp:183
+#: ../src/core/undo/UndoRedoHandler.cpp:177
 msgid "Undo"
 msgstr "പഴയപടിയാക്കുക"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:348
-#: ../src/core/undo/UndoRedoHandler.cpp:195
+#: ../src/core/undo/UndoRedoHandler.cpp:189
 msgid "Redo"
 msgstr "വീണ്ടും ചെയ്യുക"
 
@@ -1351,7 +1351,7 @@ msgid "Copy"
 msgstr "പകർത്തുക"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:352
-#: ../src/core/undo/AddUndoAction.cpp:66
+#: ../src/core/undo/AddUndoAction.cpp:72
 msgid "Paste"
 msgstr "ഒട്ടിക്കുക"
 
@@ -1360,7 +1360,7 @@ msgid "Search"
 msgstr "തിരയുക"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:356
-#: ../src/core/undo/DeleteUndoAction.cpp:66
+#: ../src/core/undo/DeleteUndoAction.cpp:74
 msgid "Delete"
 msgstr "നീക്കം ചെയ്യുക"
 
@@ -1724,38 +1724,38 @@ msgstr "എക്സ്പോർട്ട് ചെയ്യാനായി ത�
 msgid "Failed to initialize PDF Cairo surface"
 msgstr "പിഡിഎഫ് കെയ്റോ പ്രതലം ഇനിഷ്യലൈസ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു"
 
-#: ../src/core/undo/AddUndoAction.cpp:64
-#: ../src/core/undo/DeleteUndoAction.cpp:63
-#: ../src/core/undo/EraseUndoAction.cpp:65
+#: ../src/core/undo/AddUndoAction.cpp:70
+#: ../src/core/undo/DeleteUndoAction.cpp:71
+#: ../src/core/undo/EraseUndoAction.cpp:64
 msgid "Erase stroke"
 msgstr "സ്ട്രോക്ക് മായ്ക്കുക"
 
-#: ../src/core/undo/AddUndoAction.cpp:74
-#: ../src/core/undo/DeleteUndoAction.cpp:74
+#: ../src/core/undo/AddUndoAction.cpp:80
+#: ../src/core/undo/DeleteUndoAction.cpp:82
 msgid "elements"
 msgstr "ഘടകങ്ങൾ"
 
-#: ../src/core/undo/AddUndoAction.cpp:82
-#: ../src/core/undo/DeleteUndoAction.cpp:82
+#: ../src/core/undo/AddUndoAction.cpp:88
+#: ../src/core/undo/DeleteUndoAction.cpp:90
 msgid "stroke"
 msgstr "സ്ട്രോക്ക്"
 
-#: ../src/core/undo/AddUndoAction.cpp:85
-#: ../src/core/undo/DeleteUndoAction.cpp:85
+#: ../src/core/undo/AddUndoAction.cpp:91
+#: ../src/core/undo/DeleteUndoAction.cpp:93
 msgid "image"
 msgstr "ചിത്രം"
 
-#: ../src/core/undo/AddUndoAction.cpp:88
-#: ../src/core/undo/DeleteUndoAction.cpp:88
+#: ../src/core/undo/AddUndoAction.cpp:94
+#: ../src/core/undo/DeleteUndoAction.cpp:96
 msgid "latex"
 msgstr "ലാറ്റെക് (LaTeX)"
 
-#: ../src/core/undo/AddUndoAction.cpp:91
-#: ../src/core/undo/DeleteUndoAction.cpp:91
+#: ../src/core/undo/AddUndoAction.cpp:97
+#: ../src/core/undo/DeleteUndoAction.cpp:99
 msgid "text"
 msgstr "ടെക്സ്റ്റ്"
 
-#: ../src/core/undo/ColorUndoAction.cpp:90
+#: ../src/core/undo/ColorUndoAction.cpp:97
 msgid "Change color"
 msgstr "നിറം മാറ്റുക"
 
@@ -1763,19 +1763,19 @@ msgstr "നിറം മാറ്റുക"
 msgid "Emergency saved document"
 msgstr "അടിയന്തിരമായി സേവ് ചെയ്ത ഡോക്യുമെന്റ്"
 
-#: ../src/core/undo/FillUndoAction.cpp:81
+#: ../src/core/undo/FillUndoAction.cpp:88
 msgid "Change stroke fill"
 msgstr "സ്ട്രോക്ക് ഫിൽ മാറ്റുക"
 
-#: ../src/core/undo/FontUndoAction.cpp:110
+#: ../src/core/undo/FontUndoAction.cpp:118
 msgid "Change font"
 msgstr "ഫോണ്ട് മാറ്റുക"
 
-#: ../src/core/undo/InsertDeletePageUndoAction.cpp:96
+#: ../src/core/undo/InsertDeletePageUndoAction.cpp:86
 msgid "Page inserted"
 msgstr "താൾ ചേർക്കപ്പെട്ടു"
 
-#: ../src/core/undo/InsertDeletePageUndoAction.cpp:100
+#: ../src/core/undo/InsertDeletePageUndoAction.cpp:90
 msgid "Page deleted"
 msgstr "താൾ നീക്കം ചെയ്തു"
 
@@ -1795,7 +1795,7 @@ msgstr "ടെക്സ്റ്റ് എഴുതുക"
 msgid "Insert latex"
 msgstr "ലാറ്റെക് (LaTeX) ചേർക്കുക"
 
-#: ../src/core/undo/InsertUndoAction.cpp:64
+#: ../src/core/undo/InsertUndoAction.cpp:70
 msgid "Insert elements"
 msgstr "എലെമെന്റുകൾ ചേർക്കുക"
 
@@ -1803,11 +1803,11 @@ msgstr "എലെമെന്റുകൾ ചേർക്കുക"
 msgid "Rename layer"
 msgstr "പാളി പുനർനാമകരണം ചെയ്യുക"
 
-#: ../src/core/undo/LineStyleUndoAction.cpp:78
+#: ../src/core/undo/LineStyleUndoAction.cpp:86
 msgid "Change line style"
 msgstr "ലൈൻ ശൈലി മാറ്റുക"
 
-#: ../src/core/undo/MergeLayerDownUndoAction.cpp:39
+#: ../src/core/undo/MergeLayerDownUndoAction.cpp:40
 msgid "Merge layer down"
 msgstr "പാളികൾ താഴേക്ക് കൂട്ടി ചേർക്കുക"
 
@@ -1815,7 +1815,7 @@ msgstr "പാളികൾ താഴേക്ക് കൂട്ടി ചേർ
 msgid "Replace missing PDF"
 msgstr ""
 
-#: ../src/core/undo/MoveLayerUndoAction.cpp:26
+#: ../src/core/undo/MoveLayerUndoAction.cpp:28
 msgid "Move layer"
 msgstr "പാളി നീക്കുക"
 
@@ -1823,7 +1823,7 @@ msgstr "പാളി നീക്കുക"
 msgid "Move"
 msgstr "നീക്കുക"
 
-#: ../src/core/undo/PageBackgroundChangedUndoAction.cpp:85
+#: ../src/core/undo/PageBackgroundChangedUndoAction.cpp:97
 msgid "Page background changed"
 msgstr "താളിന്റെ പശ്ചാത്തലം മാറ്റിയിരിക്കുന്നു"
 
@@ -1831,23 +1831,23 @@ msgstr "താളിന്റെ പശ്ചാത്തലം മാറ്റ�
 msgid "Delete layer"
 msgstr "പാളി നീക്കം ചെയ്യുക"
 
-#: ../src/core/undo/RotateUndoAction.cpp:56
+#: ../src/core/undo/RotateUndoAction.cpp:58
 msgid "Rotation"
 msgstr "കറക്കം"
 
-#: ../src/core/undo/ScaleUndoAction.cpp:60
+#: ../src/core/undo/ScaleUndoAction.cpp:62
 msgid "Scale"
 msgstr "സ്കെയിൽ"
 
-#: ../src/core/undo/SizeUndoAction.cpp:108
+#: ../src/core/undo/SizeUndoAction.cpp:118
 msgid "Change stroke width"
 msgstr "സ്ട്രോക്ക് വീതി മാറ്റുക"
 
-#: ../src/core/undo/SwapUndoAction.cpp:68
+#: ../src/core/undo/SwapUndoAction.cpp:67
 msgid "Move page upwards"
 msgstr "താൾ മുകളിലേക്ക് നീക്കുക"
 
-#: ../src/core/undo/SwapUndoAction.cpp:68
+#: ../src/core/undo/SwapUndoAction.cpp:67
 msgid "Move page downwards"
 msgstr "താൾ താഴേക്ക് നീക്കുക"
 
@@ -1855,23 +1855,23 @@ msgstr "താൾ താഴേക്ക് നീക്കുക"
 msgid "Edit text"
 msgstr "ടെക്സ്റ്റ് തിരുത്തുക"
 
-#: ../src/core/undo/UndoRedoHandler.cpp:115
+#: ../src/core/undo/UndoRedoHandler.cpp:112
 msgid "Could not undo \"{1}\"\n"
 "Something went wrong… Please write a bug report…"
 msgstr "\"{1}\" പഴയപടിയാക്കാൻ സാധിച്ചില്ല\n"
 "എന്തോ തകരാർ സംഭവിച്ചു... ദയവായി ബഗ്ഗ്‌ റിപ്പോർട്ട് എഴുതുക…"
 
-#: ../src/core/undo/UndoRedoHandler.cpp:144
+#: ../src/core/undo/UndoRedoHandler.cpp:138
 msgid "Could not redo \"{1}\"\n"
 "Something went wrong… Please write a bug report…"
 msgstr "\"{1}\" വീണ്ടും ചെയ്യാൻ സാധിച്ചില്ല\n"
 "എന്തോ തകരാർ സംഭവിച്ചു... ദയവായി ബഗ്ഗ്‌ റിപ്പോർട്ട് എഴുതുക…"
 
-#: ../src/core/undo/UndoRedoHandler.cpp:178
+#: ../src/core/undo/UndoRedoHandler.cpp:172
 msgid "Undo: "
 msgstr "പഴയപടിയാക്കുക: "
 
-#: ../src/core/undo/UndoRedoHandler.cpp:190
+#: ../src/core/undo/UndoRedoHandler.cpp:184
 msgid "Redo: "
 msgstr "വീണ്ടും ചെയ്യുക: "
 
@@ -1931,15 +1931,15 @@ msgstr "ഫോൾഡർ നിർമിക്കാൻ സാധിച്ചി�
 msgid "Error {1} executing system command: {2}"
 msgstr "സിസ്റ്റം നിർദ്ദേശം പാലിക്കുന്നതിൽ {1} പരാജയം നേരിട്ടു: {2}"
 
-#: ../src/util/XojMsgBox.cpp:168
+#: ../src/util/XojMsgBox.cpp:174 ../src/util/XojMsgBox.cpp:190
 msgid "Select another name"
 msgstr "മറ്റൊരു നാമം തിരഞ്ഞെടുക്കുക"
 
-#: ../src/util/XojMsgBox.cpp:169
+#: ../src/util/XojMsgBox.cpp:175 ../src/util/XojMsgBox.cpp:191
 msgid "Replace"
 msgstr "പകരം വയ്ക്കുക"
 
-#: ../src/util/XojMsgBox.cpp:187
+#: ../src/util/XojMsgBox.cpp:219
 msgid "There was an error displaying help: {1}"
 msgstr "സഹായം ലഭ്യമാക്കുന്നതിൽ ഒരു പിശക് സംഭവിച്ചു: {1}"
 
@@ -2042,10 +2042,6 @@ msgstr "റൂളിംഗ് ഇല്ല"
 #: ../ui/exportSettings.glade:59
 msgid "All"
 msgstr "എല്ലാം"
-
-#: ../ui/exportSettings.glade:65
-msgid "Export"
-msgstr "എക്സ്പോര്‍ട്ട്‌"
 
 #: ../ui/exportSettings.glade:91
 msgid "<b>Document export settings</b>\n"
