@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-17 21:38+0000\n"
-"PO-Revision-Date: 2024-02-17 21:51\n"
+"POT-Creation-Date: 2024-02-24 17:09+0000\n"
+"PO-Revision-Date: 2024-02-24 17:10\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional, Hong Kong\n"
 "Language: zh_HK\n"
@@ -93,7 +93,7 @@ msgstr "選擇其他PDF"
 msgid "Remove PDF Background"
 msgstr "去掉PDF背景"
 
-#: ../src/core/control/Control.cpp:1506 ../src/core/control/Control.cpp:1927
+#: ../src/core/control/Control.cpp:1506 ../src/core/control/Control.cpp:1923
 #: ../src/core/control/XournalMain.cpp:200
 #: ../src/core/gui/sidebar/Sidebar.cpp:87
 msgid "Cancel"
@@ -119,7 +119,7 @@ msgid "Save File"
 msgstr "保存檔案"
 
 #: ../src/core/control/Control.cpp:1709
-#: ../src/core/control/jobs/BaseExportJob.cpp:24
+#: ../src/core/control/jobs/BaseExportJob.cpp:55
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:16
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:17
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
@@ -131,42 +131,42 @@ msgstr "_取消"
 msgid "_Save"
 msgstr "儲存 (_S)"
 
-#: ../src/core/control/Control.cpp:1715
+#: ../src/core/control/Control.cpp:1713
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:63
 msgid "Xournal++ files"
 msgstr "Xournal++檔案"
 
-#: ../src/core/control/Control.cpp:1762
+#: ../src/core/control/Control.cpp:1758
 msgid "Select font"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1777
+#: ../src/core/control/Control.cpp:1773
 #: ../src/core/gui/toolbarMenubar/ColorSelectorToolItem.cpp:59
 msgid "Select color"
 msgstr "選色"
 
-#: ../src/core/control/Control.cpp:1799
+#: ../src/core/control/Control.cpp:1795
 msgid "Unsaved Document"
 msgstr "未保存文檔"
 
-#: ../src/core/control/Control.cpp:1918
+#: ../src/core/control/Control.cpp:1914
 msgid "Document file was removed."
 msgstr "文檔已刪除。"
 
-#: ../src/core/control/Control.cpp:1918
+#: ../src/core/control/Control.cpp:1914
 msgid "This document is not saved yet."
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1919
+#: ../src/core/control/Control.cpp:1915
 msgid "Save As..."
 msgstr "另存新檔..."
 
-#: ../src/core/control/Control.cpp:1919 ../src/core/control/jobs/SaveJob.cpp:24
+#: ../src/core/control/Control.cpp:1915 ../src/core/control/jobs/SaveJob.cpp:24
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:337
 msgid "Save"
 msgstr "保存"
 
-#: ../src/core/control/Control.cpp:1924
+#: ../src/core/control/Control.cpp:1920
 msgid "Discard"
 msgstr "丟棄"
 
@@ -474,56 +474,56 @@ msgstr "自動儲存到 {1}"
 msgid "Could not rename autosave file from \"{1}\" to \"{2}\": {3}"
 msgstr "無法將自動儲存檔案 \"{1}\" 重新命名至 \"{2}\"： {3}"
 
-#: ../src/core/control/jobs/BaseExportJob.cpp:23
-msgid "Export PDF"
-msgstr "輸出為PDF"
-
-#: ../src/core/control/jobs/BaseExportJob.cpp:24
-msgid "_Export"
-msgstr ""
-
-#: ../src/core/control/jobs/BaseExportJob.cpp:46
+#: ../src/core/control/jobs/BaseExportJob.cpp:39
 msgid "Do not overwrite the background PDF! This will cause errors!"
 msgstr "不要覆寫背景 PDF！這樣會導致錯誤！"
 
-#: ../src/core/control/jobs/BaseExportJob.cpp:52
+#: ../src/core/control/jobs/BaseExportJob.cpp:45
 msgid "The check for overwriting the background failed with:\n"
 msgstr ""
 
-#: ../src/core/control/jobs/BaseExportJob.cpp:53
+#: ../src/core/control/jobs/BaseExportJob.cpp:46
 msgid "\n"
 " Do you want to continue?"
 msgstr "\n"
 "是否繼續?"
 
-#: ../src/core/control/jobs/BaseExportJob.cpp:108
+#: ../src/core/control/jobs/BaseExportJob.cpp:54
+msgid "Export"
+msgstr "輸出"
+
+#: ../src/core/control/jobs/BaseExportJob.cpp:55
+msgid "_Export"
+msgstr ""
+
+#: ../src/core/control/jobs/BaseExportJob.cpp:140
 msgid "Failed to resolve path with the following error:\n"
 "{1}"
 msgstr ""
 
-#: ../src/core/control/jobs/CustomExportJob.cpp:26
+#: ../src/core/control/jobs/CustomExportJob.cpp:27
 msgid "Custom Export"
 msgstr "自訂匯出"
 
-#: ../src/core/control/jobs/CustomExportJob.cpp:28
-#: ../src/core/control/jobs/PdfExportJob.cpp:19
+#: ../src/core/control/jobs/CustomExportJob.cpp:29
+#: ../src/core/control/jobs/PdfExportJob.cpp:20
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:48
 msgid "PDF files"
 msgstr "PDF檔案"
 
-#: ../src/core/control/jobs/CustomExportJob.cpp:29
+#: ../src/core/control/jobs/CustomExportJob.cpp:30
 msgid "PNG graphics"
 msgstr "PNG 圖片"
 
-#: ../src/core/control/jobs/CustomExportJob.cpp:30
+#: ../src/core/control/jobs/CustomExportJob.cpp:31
 msgid "SVG graphics"
 msgstr "SVG 圖片"
 
-#: ../src/core/control/jobs/CustomExportJob.cpp:31
+#: ../src/core/control/jobs/CustomExportJob.cpp:32
 msgid "Xournal (Compatibility)"
 msgstr ""
 
-#: ../src/core/control/jobs/CustomExportJob.cpp:131
+#: ../src/core/control/jobs/CustomExportJob.cpp:137
 #: ../src/core/control/jobs/SaveJob.cpp:130
 msgid "Save file error: {1}"
 msgstr ""
@@ -1046,7 +1046,7 @@ msgstr "繪製座標系統"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:141
 #: ../src/core/gui/toolbarMenubar/DrawingTypeComboToolButton.cpp:42
-#: ../src/core/undo/RecognizerUndoAction.cpp:55
+#: ../src/core/undo/RecognizerUndoAction.cpp:61
 msgid "Stroke recognizer"
 msgstr "筆劃識別"
 
@@ -1322,12 +1322,12 @@ msgid "Print"
 msgstr "列印"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:347
-#: ../src/core/undo/UndoRedoHandler.cpp:183
+#: ../src/core/undo/UndoRedoHandler.cpp:177
 msgid "Undo"
 msgstr "撤銷"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:348
-#: ../src/core/undo/UndoRedoHandler.cpp:195
+#: ../src/core/undo/UndoRedoHandler.cpp:189
 msgid "Redo"
 msgstr "重複"
 
@@ -1342,7 +1342,7 @@ msgid "Copy"
 msgstr "拷貝"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:352
-#: ../src/core/undo/AddUndoAction.cpp:66
+#: ../src/core/undo/AddUndoAction.cpp:72
 msgid "Paste"
 msgstr "粘貼"
 
@@ -1351,7 +1351,7 @@ msgid "Search"
 msgstr "搜索"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:356
-#: ../src/core/undo/DeleteUndoAction.cpp:66
+#: ../src/core/undo/DeleteUndoAction.cpp:74
 msgid "Delete"
 msgstr "刪除"
 
@@ -1715,38 +1715,38 @@ msgstr "沒有可匯出的頁面！"
 msgid "Failed to initialize PDF Cairo surface"
 msgstr ""
 
-#: ../src/core/undo/AddUndoAction.cpp:64
-#: ../src/core/undo/DeleteUndoAction.cpp:63
-#: ../src/core/undo/EraseUndoAction.cpp:65
+#: ../src/core/undo/AddUndoAction.cpp:70
+#: ../src/core/undo/DeleteUndoAction.cpp:71
+#: ../src/core/undo/EraseUndoAction.cpp:64
 msgid "Erase stroke"
 msgstr "擦除筆劃"
 
-#: ../src/core/undo/AddUndoAction.cpp:74
-#: ../src/core/undo/DeleteUndoAction.cpp:74
+#: ../src/core/undo/AddUndoAction.cpp:80
+#: ../src/core/undo/DeleteUndoAction.cpp:82
 msgid "elements"
 msgstr "元素"
 
-#: ../src/core/undo/AddUndoAction.cpp:82
-#: ../src/core/undo/DeleteUndoAction.cpp:82
+#: ../src/core/undo/AddUndoAction.cpp:88
+#: ../src/core/undo/DeleteUndoAction.cpp:90
 msgid "stroke"
 msgstr "筆劃"
 
-#: ../src/core/undo/AddUndoAction.cpp:85
-#: ../src/core/undo/DeleteUndoAction.cpp:85
+#: ../src/core/undo/AddUndoAction.cpp:91
+#: ../src/core/undo/DeleteUndoAction.cpp:93
 msgid "image"
 msgstr "圖片"
 
-#: ../src/core/undo/AddUndoAction.cpp:88
-#: ../src/core/undo/DeleteUndoAction.cpp:88
+#: ../src/core/undo/AddUndoAction.cpp:94
+#: ../src/core/undo/DeleteUndoAction.cpp:96
 msgid "latex"
 msgstr "LaTeX"
 
-#: ../src/core/undo/AddUndoAction.cpp:91
-#: ../src/core/undo/DeleteUndoAction.cpp:91
+#: ../src/core/undo/AddUndoAction.cpp:97
+#: ../src/core/undo/DeleteUndoAction.cpp:99
 msgid "text"
 msgstr "文字"
 
-#: ../src/core/undo/ColorUndoAction.cpp:90
+#: ../src/core/undo/ColorUndoAction.cpp:97
 msgid "Change color"
 msgstr "改變顏色"
 
@@ -1754,19 +1754,19 @@ msgstr "改變顏色"
 msgid "Emergency saved document"
 msgstr "緊急儲存文件"
 
-#: ../src/core/undo/FillUndoAction.cpp:81
+#: ../src/core/undo/FillUndoAction.cpp:88
 msgid "Change stroke fill"
 msgstr "改變筆劃色彩"
 
-#: ../src/core/undo/FontUndoAction.cpp:110
+#: ../src/core/undo/FontUndoAction.cpp:118
 msgid "Change font"
 msgstr "改變字型"
 
-#: ../src/core/undo/InsertDeletePageUndoAction.cpp:96
+#: ../src/core/undo/InsertDeletePageUndoAction.cpp:86
 msgid "Page inserted"
 msgstr "頁面插入"
 
-#: ../src/core/undo/InsertDeletePageUndoAction.cpp:100
+#: ../src/core/undo/InsertDeletePageUndoAction.cpp:90
 msgid "Page deleted"
 msgstr "頁面刪除"
 
@@ -1786,7 +1786,7 @@ msgstr "寫文本"
 msgid "Insert latex"
 msgstr "插入LaTeX"
 
-#: ../src/core/undo/InsertUndoAction.cpp:64
+#: ../src/core/undo/InsertUndoAction.cpp:70
 msgid "Insert elements"
 msgstr "插入元素"
 
@@ -1794,11 +1794,11 @@ msgstr "插入元素"
 msgid "Rename layer"
 msgstr ""
 
-#: ../src/core/undo/LineStyleUndoAction.cpp:78
+#: ../src/core/undo/LineStyleUndoAction.cpp:86
 msgid "Change line style"
 msgstr ""
 
-#: ../src/core/undo/MergeLayerDownUndoAction.cpp:39
+#: ../src/core/undo/MergeLayerDownUndoAction.cpp:40
 msgid "Merge layer down"
 msgstr ""
 
@@ -1806,7 +1806,7 @@ msgstr ""
 msgid "Replace missing PDF"
 msgstr ""
 
-#: ../src/core/undo/MoveLayerUndoAction.cpp:26
+#: ../src/core/undo/MoveLayerUndoAction.cpp:28
 msgid "Move layer"
 msgstr "移動圖層"
 
@@ -1814,7 +1814,7 @@ msgstr "移動圖層"
 msgid "Move"
 msgstr "移動"
 
-#: ../src/core/undo/PageBackgroundChangedUndoAction.cpp:85
+#: ../src/core/undo/PageBackgroundChangedUndoAction.cpp:97
 msgid "Page background changed"
 msgstr "頁面背景改變"
 
@@ -1822,23 +1822,23 @@ msgstr "頁面背景改變"
 msgid "Delete layer"
 msgstr "刪除層"
 
-#: ../src/core/undo/RotateUndoAction.cpp:56
+#: ../src/core/undo/RotateUndoAction.cpp:58
 msgid "Rotation"
 msgstr "旋轉"
 
-#: ../src/core/undo/ScaleUndoAction.cpp:60
+#: ../src/core/undo/ScaleUndoAction.cpp:62
 msgid "Scale"
 msgstr "縮放"
 
-#: ../src/core/undo/SizeUndoAction.cpp:108
+#: ../src/core/undo/SizeUndoAction.cpp:118
 msgid "Change stroke width"
 msgstr "改變筆劃粗細"
 
-#: ../src/core/undo/SwapUndoAction.cpp:68
+#: ../src/core/undo/SwapUndoAction.cpp:67
 msgid "Move page upwards"
 msgstr "向前移動頁面"
 
-#: ../src/core/undo/SwapUndoAction.cpp:68
+#: ../src/core/undo/SwapUndoAction.cpp:67
 msgid "Move page downwards"
 msgstr "向後移動頁面"
 
@@ -1846,23 +1846,23 @@ msgstr "向後移動頁面"
 msgid "Edit text"
 msgstr "編輯文本"
 
-#: ../src/core/undo/UndoRedoHandler.cpp:115
+#: ../src/core/undo/UndoRedoHandler.cpp:112
 msgid "Could not undo \"{1}\"\n"
 "Something went wrong… Please write a bug report…"
 msgstr "未能撤銷操作\"{1}\"\n"
 "有錯誤發生***請提交一個錯誤報告***"
 
-#: ../src/core/undo/UndoRedoHandler.cpp:144
+#: ../src/core/undo/UndoRedoHandler.cpp:138
 msgid "Could not redo \"{1}\"\n"
 "Something went wrong… Please write a bug report…"
 msgstr "未能重複操作\"{1}\"\n"
 "有錯誤發生***請提交一個錯誤報告***"
 
-#: ../src/core/undo/UndoRedoHandler.cpp:178
+#: ../src/core/undo/UndoRedoHandler.cpp:172
 msgid "Undo: "
 msgstr "撤銷："
 
-#: ../src/core/undo/UndoRedoHandler.cpp:190
+#: ../src/core/undo/UndoRedoHandler.cpp:184
 msgid "Redo: "
 msgstr "重複："
 
@@ -1921,15 +1921,15 @@ msgstr ""
 msgid "Error {1} executing system command: {2}"
 msgstr ""
 
-#: ../src/util/XojMsgBox.cpp:168
+#: ../src/util/XojMsgBox.cpp:174 ../src/util/XojMsgBox.cpp:190
 msgid "Select another name"
 msgstr "選擇其他名稱"
 
-#: ../src/util/XojMsgBox.cpp:169
+#: ../src/util/XojMsgBox.cpp:175 ../src/util/XojMsgBox.cpp:191
 msgid "Replace"
 msgstr "置換"
 
-#: ../src/util/XojMsgBox.cpp:187
+#: ../src/util/XojMsgBox.cpp:219
 msgid "There was an error displaying help: {1}"
 msgstr ""
 
@@ -2033,10 +2033,6 @@ msgstr ""
 #: ../ui/exportSettings.glade:59
 msgid "All"
 msgstr ""
-
-#: ../ui/exportSettings.glade:65
-msgid "Export"
-msgstr "輸出"
 
 #: ../ui/exportSettings.glade:91
 msgid "<b>Document export settings</b>\n"
