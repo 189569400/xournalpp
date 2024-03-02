@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-02 13:31+0000\n"
-"PO-Revision-Date: 2024-03-02 13:52\n"
+"PO-Revision-Date: 2024-03-02 19:32\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -33,7 +33,7 @@ msgstr "Nu s-a putut elimina vechiul fișier salvat automat „{1}”: {2}"
 
 #: ../src/core/control/Control.cpp:547
 msgid "You deleted the active toolbar. Falling back to the default toolbar."
-msgstr ""
+msgstr "Ai șters banda cu instrumente activă. Se revine la banda cu instrumente prestabilită."
 
 #: ../src/core/control/Control.cpp:561
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
@@ -1739,7 +1739,7 @@ msgstr "Fond"
 
 #: ../src/core/pdf/base/XojCairoPdfExport.cpp:123
 msgid "Error while finalizing the PDF Cairo surface"
-msgstr ""
+msgstr "Eroare la finalizarea suprafeței PDF Cairo"
 
 #: ../src/core/pdf/base/XojCairoPdfExport.cpp:189
 #: ../src/core/pdf/base/XojCairoPdfExport.cpp:235
