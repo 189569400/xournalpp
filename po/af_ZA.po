@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-24 17:09+0000\n"
-"PO-Revision-Date: 2024-02-24 17:09\n"
+"POT-Creation-Date: 2024-03-02 13:31+0000\n"
+"PO-Revision-Date: 2024-03-02 13:52\n"
 "Last-Translator: \n"
 "Language-Team: Afrikaans\n"
 "Language: af_ZA\n"
@@ -31,27 +31,31 @@ msgstr ""
 msgid "Could not remove old autosave file \"{1}\": {2}"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:548
+#: ../src/core/control/Control.cpp:547
+msgid "You deleted the active toolbar. Falling back to the default toolbar."
+msgstr ""
+
+#: ../src/core/control/Control.cpp:561
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
 msgstr "Die Nutsbalk-konfigurasie \"{1}\" is voorafgekies, wil jy 'n afskrif maak om te verander?"
 
-#: ../src/core/control/Control.cpp:551
+#: ../src/core/control/Control.cpp:564
 msgid "Yes"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:551
+#: ../src/core/control/Control.cpp:564
 msgid "No"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:730
+#: ../src/core/control/Control.cpp:743
 msgid "No pdf pages available to append. You may need to reopen the document first."
 msgstr "Geen pdf blaai is beskikbaar om aan te heg nie. Jy moet dalk die dokument eers weer oop maak."
 
-#: ../src/core/control/Control.cpp:744
+#: ../src/core/control/Control.cpp:757
 msgid "Unable to retrieve pdf page."
 msgstr "Kan nie pdf bladsy haal nie."
 
-#: ../src/core/control/Control.cpp:1311
+#: ../src/core/control/Control.cpp:1324
 msgid "Do not open Autosave files. They may will be overwritten!\n"
 "Copy the files to another folder.\n"
 "Files from Folder {1} cannot be opened."
@@ -59,66 +63,66 @@ msgstr "Moet nie Autosave lêers oop maak nie. Hulle sal oorskryf word!\n"
 "Kopieer die lêers na 'n ander laai.\n"
 "Lêer van laai {1} kan nie oopgemaak word nie."
 
-#: ../src/core/control/Control.cpp:1325
+#: ../src/core/control/Control.cpp:1338
 msgid "file: {1}"
 msgstr "lêer: {1}"
 
-#: ../src/core/control/Control.cpp:1349
+#: ../src/core/control/Control.cpp:1362
 msgid "Error opening file \"{1}\""
 msgstr "Fout tydens oopmaak van lêer \"{1}\""
 
-#: ../src/core/control/Control.cpp:1357
+#: ../src/core/control/Control.cpp:1370
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
 msgstr "Die lêer wat gelaai word het 'n lêer formaat wat nuwer is as die een tans ondersteun deur hierdie weergawe van Xournal++, so dit mag dalk nie reg laai nie. Maak in elk geval oop?"
 
-#: ../src/core/control/Control.cpp:1486
+#: ../src/core/control/Control.cpp:1499
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1489
+#: ../src/core/control/Control.cpp:1502
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
 "It was last seen at: \"{2}\""
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1499
+#: ../src/core/control/Control.cpp:1512
 msgid "\n"
 "Proposed replacement file: \"{1}\""
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1504
+#: ../src/core/control/Control.cpp:1517
 msgid "Select another PDF"
 msgstr "Kies 'n ander PDF"
 
-#: ../src/core/control/Control.cpp:1505
+#: ../src/core/control/Control.cpp:1518
 msgid "Remove PDF Background"
 msgstr "Verwyder PDF agtergrond"
 
-#: ../src/core/control/Control.cpp:1506 ../src/core/control/Control.cpp:1923
+#: ../src/core/control/Control.cpp:1519 ../src/core/control/Control.cpp:1936
 #: ../src/core/control/XournalMain.cpp:200
 #: ../src/core/gui/sidebar/Sidebar.cpp:87
 msgid "Cancel"
 msgstr "Kanselleer"
 
-#: ../src/core/control/Control.cpp:1509
+#: ../src/core/control/Control.cpp:1522
 msgid "Use proposed PDF"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1512
+#: ../src/core/control/Control.cpp:1525
 msgid "Missing PDF background file"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1605
+#: ../src/core/control/Control.cpp:1618
 msgid "Error annotate PDF file \"{1}\"\n"
 "{2}"
 msgstr "Fout annoteer PDF lêer \"{1}\"\n"
 "{2}"
 
-#: ../src/core/control/Control.cpp:1709
+#: ../src/core/control/Control.cpp:1722
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
 msgid "Save File"
 msgstr "Save lêer"
 
-#: ../src/core/control/Control.cpp:1709
+#: ../src/core/control/Control.cpp:1722
 #: ../src/core/control/jobs/BaseExportJob.cpp:55
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:16
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:17
@@ -126,47 +130,47 @@ msgstr "Save lêer"
 msgid "_Cancel"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1710
+#: ../src/core/control/Control.cpp:1723
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:112
 msgid "_Save"
 msgstr "_Save"
 
-#: ../src/core/control/Control.cpp:1713
+#: ../src/core/control/Control.cpp:1726
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:63
 msgid "Xournal++ files"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1758
+#: ../src/core/control/Control.cpp:1771
 msgid "Select font"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1773
+#: ../src/core/control/Control.cpp:1786
 #: ../src/core/gui/toolbarMenubar/ColorSelectorToolItem.cpp:59
 msgid "Select color"
 msgstr "Kies kleur"
 
-#: ../src/core/control/Control.cpp:1795
+#: ../src/core/control/Control.cpp:1808
 msgid "Unsaved Document"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1914
+#: ../src/core/control/Control.cpp:1927
 msgid "Document file was removed."
 msgstr "Dokument lêer was verwyder."
 
-#: ../src/core/control/Control.cpp:1914
+#: ../src/core/control/Control.cpp:1927
 msgid "This document is not saved yet."
 msgstr "Hierdie dokument is nog nie gestoor nie."
 
-#: ../src/core/control/Control.cpp:1915
+#: ../src/core/control/Control.cpp:1928
 msgid "Save As..."
 msgstr "Save As..."
 
-#: ../src/core/control/Control.cpp:1915 ../src/core/control/jobs/SaveJob.cpp:24
+#: ../src/core/control/Control.cpp:1928 ../src/core/control/jobs/SaveJob.cpp:24
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:337
 msgid "Save"
 msgstr "Save"
 
-#: ../src/core/control/Control.cpp:1920
+#: ../src/core/control/Control.cpp:1933
 msgid "Discard"
 msgstr "Gooi weg"
 
@@ -1720,13 +1724,17 @@ msgstr "Dokument is nie gelaai nie! ({1}), {2}"
 msgid "Background"
 msgstr "Agtergrond"
 
-#: ../src/core/pdf/base/XojCairoPdfExport.cpp:173
-#: ../src/core/pdf/base/XojCairoPdfExport.cpp:216
+#: ../src/core/pdf/base/XojCairoPdfExport.cpp:123
+msgid "Error while finalizing the PDF Cairo surface"
+msgstr ""
+
+#: ../src/core/pdf/base/XojCairoPdfExport.cpp:189
+#: ../src/core/pdf/base/XojCairoPdfExport.cpp:235
 msgid "No pages to export!"
 msgstr "Geen bladsye om uit te voer nie!"
 
-#: ../src/core/pdf/base/XojCairoPdfExport.cpp:178
-#: ../src/core/pdf/base/XojCairoPdfExport.cpp:221
+#: ../src/core/pdf/base/XojCairoPdfExport.cpp:198
+#: ../src/core/pdf/base/XojCairoPdfExport.cpp:240
 msgid "Failed to initialize PDF Cairo surface"
 msgstr "Inisialisering van PDF Cairo oppervlak het misluk"
 
