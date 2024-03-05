@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-02 13:31+0000\n"
-"PO-Revision-Date: 2024-03-02 13:52\n"
+"PO-Revision-Date: 2024-03-05 23:30\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -33,7 +33,7 @@ msgstr "Konnte alte Autospeicherdatei \"{1}\" nicht entfernen: {2}"
 
 #: ../src/core/control/Control.cpp:547
 msgid "You deleted the active toolbar. Falling back to the default toolbar."
-msgstr ""
+msgstr "Sie haben die aktive Symbolleiste gelöscht. Die Standard-Symbolleiste wird benutzt."
 
 #: ../src/core/control/Control.cpp:561
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
@@ -1739,7 +1739,7 @@ msgstr "Hintergrund"
 
 #: ../src/core/pdf/base/XojCairoPdfExport.cpp:123
 msgid "Error while finalizing the PDF Cairo surface"
-msgstr ""
+msgstr "Fehler beim Bereitstellen der PDF Cairo Oberfläche"
 
 #: ../src/core/pdf/base/XojCairoPdfExport.cpp:189
 #: ../src/core/pdf/base/XojCairoPdfExport.cpp:235
@@ -2145,7 +2145,7 @@ msgstr "<b>... oder wählen Sie ein bereits verwendetes Bild:</b>"
 
 #: ../ui/latexSettings.glade:36
 msgid "Always check LaTeX dependencies before running"
-msgstr "LaTeX-Abhängigkeiten vor dem Ausführen immer überprüfen"
+msgstr "Überprüfen Sie vor dem Ausführen immer die LaTeX-Abhängigkeiten"
 
 #: ../ui/latexSettings.glade:40
 msgid "If enabled, check that required LaTeX packages are installed and that the LaTeX commands are available before running the LaTeX tool."
