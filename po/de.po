@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-02 13:31+0000\n"
-"PO-Revision-Date: 2024-03-05 23:30\n"
+"POT-Creation-Date: 2024-03-10 20:59+0000\n"
+"PO-Revision-Date: 2024-03-11 12:20\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -704,19 +704,19 @@ msgstr "Xournal++ Vorlage"
 msgid "Supported files"
 msgstr "Unterstützte Dateiformate"
 
-#: ../src/core/control/tools/EditSelection.cpp:455
+#: ../src/core/control/tools/EditSelection.cpp:456
 msgid "Arrange"
 msgstr "Anordnen"
 
-#: ../src/core/control/tools/EditSelection.cpp:470
+#: ../src/core/control/tools/EditSelection.cpp:471
 msgid "Bring forward"
 msgstr "Eine Ebene nach vorne"
 
-#: ../src/core/control/tools/EditSelection.cpp:481
+#: ../src/core/control/tools/EditSelection.cpp:482
 msgid "Send backward"
 msgstr "Eine Ebene nach hinten"
 
-#: ../src/core/control/tools/EditSelection.cpp:488
+#: ../src/core/control/tools/EditSelection.cpp:489
 msgid "Send to back"
 msgstr "In den Hintergrund"
 
@@ -1528,7 +1528,7 @@ msgstr "Geodreieck"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:447
 msgid "Compass"
-msgstr "Kompass"
+msgstr "Zirkel"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:451
 msgid "Shape Recognizer"
@@ -4265,7 +4265,7 @@ msgstr "Form zeichnen (Linie, Pfeil, Kreis, Rechteck, Spline)"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:29
 msgid "Use the set-square and compass tools for measurements or as a guide for drawing straight lines, circular arcs and radii"
-msgstr "Nutze das Geodreieck oder den Kompass für Messungen oder als Hilfe zum Zeichnen von geraden Linien, runden Bögen und Kreisabschnitten"
+msgstr "Nutze das Geodreieck oder den Zirkel für Messungen oder als Hilfe zum Zeichnen von geraden Linien, runden Bögen und Kreisabschnitten"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:30
 msgid "Fill shape functionality"
