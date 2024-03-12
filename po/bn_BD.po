@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-02 13:31+0000\n"
-"PO-Revision-Date: 2024-03-02 13:52\n"
+"POT-Creation-Date: 2024-03-10 20:59+0000\n"
+"PO-Revision-Date: 2024-03-12 08:20\n"
 "Last-Translator: \n"
 "Language-Team: Bengali\n"
 "Language: bn_BD\n"
@@ -250,7 +250,7 @@ msgstr ""
 
 #: ../src/core/control/LatexController.cpp:307
 msgid "Could not load LaTeX PDF file"
-msgstr ""
+msgstr "LaTeX PDF লোড হলোনা"
 
 #: ../src/core/control/PageBackgroundChangeController.cpp:75
 #: ../src/core/control/xojfile/LoadHandler.cpp:469
@@ -668,19 +668,19 @@ msgstr "এক্সঔরনাল++ পূর্বনির্ধারিত
 msgid "Supported files"
 msgstr "অনুমোদিত নথিসমূহ"
 
-#: ../src/core/control/tools/EditSelection.cpp:455
+#: ../src/core/control/tools/EditSelection.cpp:456
 msgid "Arrange"
 msgstr "সাজানো"
 
-#: ../src/core/control/tools/EditSelection.cpp:470
+#: ../src/core/control/tools/EditSelection.cpp:471
 msgid "Bring forward"
 msgstr "সম্মুখ আনা"
 
-#: ../src/core/control/tools/EditSelection.cpp:481
+#: ../src/core/control/tools/EditSelection.cpp:482
 msgid "Send backward"
 msgstr "পশ্চাৎ পাঠান"
 
-#: ../src/core/control/tools/EditSelection.cpp:488
+#: ../src/core/control/tools/EditSelection.cpp:489
 msgid "Send to back"
 msgstr "সর্বপশ্চাৎ পাঠান"
 
