@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-02 13:31+0000\n"
-"PO-Revision-Date: 2024-03-05 12:14\n"
+"POT-Creation-Date: 2024-03-10 20:59+0000\n"
+"PO-Revision-Date: 2024-03-13 15:50\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -29,11 +29,11 @@ msgstr "文件系统错误： {1}"
 
 #: ../src/core/control/Control.cpp:231
 msgid "Could not remove old autosave file \"{1}\": {2}"
-msgstr ""
+msgstr "无法删除已保存的文件“{1}”“{2}”"
 
 #: ../src/core/control/Control.cpp:547
 msgid "You deleted the active toolbar. Falling back to the default toolbar."
-msgstr ""
+msgstr "您已经删除了活动工具栏，请退回到默认工具栏"
 
 #: ../src/core/control/Control.cpp:561
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
@@ -704,19 +704,19 @@ msgstr "Xournal++ 模板"
 msgid "Supported files"
 msgstr "支撑文件"
 
-#: ../src/core/control/tools/EditSelection.cpp:455
+#: ../src/core/control/tools/EditSelection.cpp:456
 msgid "Arrange"
 msgstr "排列"
 
-#: ../src/core/control/tools/EditSelection.cpp:470
+#: ../src/core/control/tools/EditSelection.cpp:471
 msgid "Bring forward"
 msgstr "上移一层"
 
-#: ../src/core/control/tools/EditSelection.cpp:481
+#: ../src/core/control/tools/EditSelection.cpp:482
 msgid "Send backward"
 msgstr "下移一层"
 
-#: ../src/core/control/tools/EditSelection.cpp:488
+#: ../src/core/control/tools/EditSelection.cpp:489
 msgid "Send to back"
 msgstr "置于底层"
 
@@ -1739,7 +1739,7 @@ msgstr "背景"
 
 #: ../src/core/pdf/base/XojCairoPdfExport.cpp:123
 msgid "Error while finalizing the PDF Cairo surface"
-msgstr ""
+msgstr "使用Cairo渲染PDF封面时出现错误"
 
 #: ../src/core/pdf/base/XojCairoPdfExport.cpp:189
 #: ../src/core/pdf/base/XojCairoPdfExport.cpp:235
@@ -4137,7 +4137,7 @@ msgstr "高亮选项(_O)"
 
 #: ../ui/mainmenubar.xml:809
 msgid "Select PDF Text Options"
-msgstr ""
+msgstr "选择PDF文本选项"
 
 #: ../ui/mainmenubar.xml:812
 msgid "Marker Opacity"
@@ -4181,7 +4181,7 @@ msgstr "所有工具"
 
 #: ../resources-templates/toolbar.ini.in:55
 msgid "Portrait"
-msgstr ""
+msgstr "纵向"
 
 #: ../resources-templates/toolbar.ini.in:61
 msgid "Minimal Left"
@@ -4213,11 +4213,11 @@ msgstr "无工具栏"
 
 #: ../desktop/com.github.xournalpp.xournalpp.desktop.in:6
 msgid "Take handwritten notes"
-msgstr ""
+msgstr "手写笔记"
 
 #: ../desktop/com.github.xournalpp.xournalpp.desktop.in:7
 msgid "tablet;Wacom;pen input;PDF Annotation;markup"
-msgstr ""
+msgstr "使用平板、数位板、笔输入；PDF注释；标记"
 
 #: ../desktop/com.github.xournalpp.xournalpp.desktop.in:15
 msgid "com.github.xournalpp.xournalpp"
