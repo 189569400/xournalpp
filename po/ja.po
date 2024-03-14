@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-02 13:31+0000\n"
-"PO-Revision-Date: 2024-03-02 13:52\n"
+"POT-Creation-Date: 2024-03-10 20:59+0000\n"
+"PO-Revision-Date: 2024-03-14 03:31\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -657,7 +657,7 @@ msgstr "%F-ノート-%H-%M"
 
 #: ../src/core/control/settings/Settings.cpp:153
 msgid "%{name}_annotated"
-msgstr ""
+msgstr "%{name}_注釈付き"
 
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:16
 msgid "Open Image"
@@ -699,19 +699,19 @@ msgstr "Xournal++テンプレート"
 msgid "Supported files"
 msgstr "サポートされたファイル"
 
-#: ../src/core/control/tools/EditSelection.cpp:455
+#: ../src/core/control/tools/EditSelection.cpp:456
 msgid "Arrange"
 msgstr "並べ替える"
 
-#: ../src/core/control/tools/EditSelection.cpp:470
+#: ../src/core/control/tools/EditSelection.cpp:471
 msgid "Bring forward"
 msgstr "繰り上げる"
 
-#: ../src/core/control/tools/EditSelection.cpp:481
+#: ../src/core/control/tools/EditSelection.cpp:482
 msgid "Send backward"
 msgstr "背面に移動"
 
-#: ../src/core/control/tools/EditSelection.cpp:488
+#: ../src/core/control/tools/EditSelection.cpp:489
 msgid "Send to back"
 msgstr "最背面に移動"
 
@@ -2319,11 +2319,11 @@ msgstr "幅:"
 
 #: ../ui/pageFormat.glade:169
 msgid "Height:"
-msgstr ""
+msgstr "高さ:"
 
 #: ../ui/pageFormat.glade:315
 msgid "Reset"
-msgstr ""
+msgstr "リセット"
 
 #: ../ui/pageTemplate.glade:27
 msgid "Configure new page template"
@@ -3257,7 +3257,7 @@ msgstr ""
 
 #: ../ui/settings.glade:4722
 msgid "Paired Pages"
-msgstr ""
+msgstr "2面表示"
 
 #: ../ui/settings.glade:4748
 msgid "when scrolling to end of last page"
@@ -3635,7 +3635,7 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:22
 msgid "_Annotate PDF"
-msgstr ""
+msgstr "注釈をつけるPDFを開く"
 
 #: ../ui/mainmenubar.xml:31
 msgid "Save As"
@@ -3851,23 +3851,23 @@ msgstr "ナビゲーション(_N)"
 
 #: ../ui/mainmenubar.xml:382
 msgid "_First Page"
-msgstr ""
+msgstr "最初のページ(_F)"
 
 #: ../ui/mainmenubar.xml:387
 msgid "_Previous Page"
-msgstr ""
+msgstr "前のページ(_P)"
 
 #: ../ui/mainmenubar.xml:392
 msgid "_Goto Page"
-msgstr ""
+msgstr "ページを移動(_G)"
 
 #: ../ui/mainmenubar.xml:397
 msgid "_Next Page"
-msgstr ""
+msgstr "次のページ(_N)"
 
 #: ../ui/mainmenubar.xml:402
 msgid "_Last Page"
-msgstr ""
+msgstr "最後のページ(_L)"
 
 #: ../ui/mainmenubar.xml:409
 msgid "_Previous Layer"
@@ -3883,11 +3883,11 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:425
 msgid "N_ext Annotated Page"
-msgstr ""
+msgstr "次の注釈付きページ(_e)"
 
 #: ../ui/mainmenubar.xml:430
 msgid "P_revious Annotated Page"
-msgstr ""
+msgstr "前の注釈付きページ(_r)"
 
 #: ../ui/mainmenubar.xml:437
 msgid "_Journal"
@@ -3895,31 +3895,31 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:440
 msgid "New Page _Before"
-msgstr ""
+msgstr "前に新しいページを追加(_B)"
 
 #: ../ui/mainmenubar.xml:444
 msgid "New Page _After"
-msgstr ""
+msgstr "次に新しいページを追加(_A)"
 
 #: ../ui/mainmenubar.xml:449
 msgid "New Page at _End"
-msgstr ""
+msgstr "最後に新しいページを追加(_E)"
 
 #: ../ui/mainmenubar.xml:453
 msgid "Duplicate Page"
-msgstr ""
+msgstr "ページを複製"
 
 #: ../ui/mainmenubar.xml:457
 msgid "Append New PDF Pages"
-msgstr ""
+msgstr "新しいPDFページを追加"
 
 #: ../ui/mainmenubar.xml:461
 msgid "Configure Page Template"
-msgstr ""
+msgstr "ページテンプレートの設定"
 
 #: ../ui/mainmenubar.xml:465
 msgid "_Delete Page"
-msgstr ""
+msgstr "ページを削除(_D)"
 
 #: ../ui/mainmenubar.xml:472
 msgid "New _Layer"
@@ -4104,7 +4104,7 @@ msgstr ""
 
 #: ../resources-templates/pagetemplates.ini.in:42
 msgid "Graph with border"
-msgstr ""
+msgstr "外枠付きのグラフ"
 
 #: ../resources-templates/toolbar.ini.in:50
 msgid "All Tools"
@@ -4172,7 +4172,7 @@ msgstr ""
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:23
 msgid "Annotate on top of PDFs"
-msgstr ""
+msgstr "PDF上に注釈を付ける"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:24
 msgid "Select text from the background PDF, copy, highlight or underline it or strike it through"
@@ -4248,7 +4248,7 @@ msgstr ""
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:42
 msgid "Page template definitions"
-msgstr ""
+msgstr "ページテンプレートの定義"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:43
 msgid "Bug reporting, autosave, and auto backup tools"
