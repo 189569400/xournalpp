@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-10 20:59+0000\n"
-"PO-Revision-Date: 2024-03-14 03:31\n"
+"PO-Revision-Date: 2024-03-14 04:55\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -636,11 +636,11 @@ msgstr "点線"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:35
 msgid "Isometric Dotted"
-msgstr ""
+msgstr "等間隔の点"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:36
 msgid "Isometric Graph"
-msgstr ""
+msgstr "等角グラフ"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:40
 msgid "With PDF background"
@@ -4232,7 +4232,7 @@ msgstr ""
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:38
 msgid "Sidebar containing page previews with advanced page sorting, PDF bookmarks and layers (can be individually hidden/edited)"
-msgstr ""
+msgstr "ページの並び替え、PDFブックマークとレイヤーを含むサイドバー (個別に非表示/編集することができます)"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:39
 msgid "Allows mapping different tools/colors etc. to stylus/mouse buttons"
