@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-02 13:31+0000\n"
-"PO-Revision-Date: 2024-03-02 13:52\n"
+"POT-Creation-Date: 2024-03-10 20:59+0000\n"
+"PO-Revision-Date: 2024-03-20 08:33\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -25,7 +25,7 @@ msgstr "Тека з аудіо не задана чи не відповідна!
 
 #: ../src/core/control/Control.cpp:219
 msgid "Filesystem error: {1}"
-msgstr ""
+msgstr "Помилка файлової системи: {1}"
 
 #: ../src/core/control/Control.cpp:231
 msgid "Could not remove old autosave file \"{1}\": {2}"
@@ -703,19 +703,19 @@ msgstr "Xournal++ шаблон"
 msgid "Supported files"
 msgstr "Файли, що підтримуються"
 
-#: ../src/core/control/tools/EditSelection.cpp:455
+#: ../src/core/control/tools/EditSelection.cpp:456
 msgid "Arrange"
 msgstr "Впорядкувати"
 
-#: ../src/core/control/tools/EditSelection.cpp:470
+#: ../src/core/control/tools/EditSelection.cpp:471
 msgid "Bring forward"
 msgstr "Перемістити вперед"
 
-#: ../src/core/control/tools/EditSelection.cpp:481
+#: ../src/core/control/tools/EditSelection.cpp:482
 msgid "Send backward"
 msgstr "Перемістити назад"
 
-#: ../src/core/control/tools/EditSelection.cpp:488
+#: ../src/core/control/tools/EditSelection.cpp:489
 msgid "Send to back"
 msgstr "На задній план"
 
@@ -1926,15 +1926,15 @@ msgstr ""
 
 #: ../src/util/OutputStream.cpp:49
 msgid "Error code {1}. Message:"
-msgstr ""
+msgstr "Код помилки {1}. Подробиці:"
 
 #: ../src/util/OutputStream.cpp:69
 msgid "Error occurred while closing file: \"{1}\""
-msgstr ""
+msgstr "Помилка під час збереження файлу: \"{1}\""
 
 #: ../src/util/OutputStream.cpp:70
 msgid "Error code {1}"
-msgstr ""
+msgstr "Код помилки: {1}"
 
 #: ../src/util/PathUtil.cpp:173
 msgid "File couldn't be opened. You have to do it manually:\n"
