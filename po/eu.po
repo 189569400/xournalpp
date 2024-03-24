@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-02 13:31+0000\n"
-"PO-Revision-Date: 2024-03-02 13:52\n"
+"POT-Creation-Date: 2024-03-10 20:59+0000\n"
+"PO-Revision-Date: 2024-03-24 22:02\n"
 "Last-Translator: \n"
 "Language-Team: Basque\n"
 "Language: eu_ES\n"
@@ -25,7 +25,7 @@ msgstr "Audio karpeta ez dago ezarrita edo baliogabea da! Grabaketak ez du funtz
 
 #: ../src/core/control/Control.cpp:219
 msgid "Filesystem error: {1}"
-msgstr ""
+msgstr "Fitxategi-sistemaren errorea: {1}"
 
 #: ../src/core/control/Control.cpp:231
 msgid "Could not remove old autosave file \"{1}\": {2}"
@@ -33,7 +33,7 @@ msgstr "Ezin izan da \"{1}\" automatikoki gordetzeko fitxategi zaharra kendu: {2
 
 #: ../src/core/control/Control.cpp:547
 msgid "You deleted the active toolbar. Falling back to the default toolbar."
-msgstr ""
+msgstr "Tresna-barra aktiboa ezabatu duzu. Lehenetsitako tresna-barrara itzultzen."
 
 #: ../src/core/control/Control.cpp:561
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
@@ -111,7 +111,7 @@ msgstr "Erabili proposatutako PDFa"
 
 #: ../src/core/control/Control.cpp:1525
 msgid "Missing PDF background file"
-msgstr ""
+msgstr "Atzeko planoko PDF fitxategia falta da"
 
 #: ../src/core/control/Control.cpp:1618
 msgid "Error annotate PDF file \"{1}\"\n"
@@ -704,19 +704,19 @@ msgstr "Xournal++ txantiloia"
 msgid "Supported files"
 msgstr "Fitxategi onartuak"
 
-#: ../src/core/control/tools/EditSelection.cpp:455
+#: ../src/core/control/tools/EditSelection.cpp:456
 msgid "Arrange"
 msgstr "Antolatu"
 
-#: ../src/core/control/tools/EditSelection.cpp:470
+#: ../src/core/control/tools/EditSelection.cpp:471
 msgid "Bring forward"
 msgstr "Ekarri aurrerago"
 
-#: ../src/core/control/tools/EditSelection.cpp:481
+#: ../src/core/control/tools/EditSelection.cpp:482
 msgid "Send backward"
 msgstr "Eraman atzerago"
 
-#: ../src/core/control/tools/EditSelection.cpp:488
+#: ../src/core/control/tools/EditSelection.cpp:489
 msgid "Send to back"
 msgstr "Eraman atzera"
 
@@ -1739,7 +1739,7 @@ msgstr "Atzeko planoa"
 
 #: ../src/core/pdf/base/XojCairoPdfExport.cpp:123
 msgid "Error while finalizing the PDF Cairo surface"
-msgstr ""
+msgstr "Errore bat gertatu da PDF Cairo gainazala amaitzean"
 
 #: ../src/core/pdf/base/XojCairoPdfExport.cpp:189
 #: ../src/core/pdf/base/XojCairoPdfExport.cpp:235
@@ -1840,7 +1840,7 @@ msgstr "Batu beheko geruzarekin"
 
 #: ../src/core/undo/MissingPdfUndoAction.cpp:66
 msgid "Replace missing PDF"
-msgstr ""
+msgstr "Ordeztu falta den PDFa"
 
 #: ../src/core/undo/MoveLayerUndoAction.cpp:28
 msgid "Move layer"
